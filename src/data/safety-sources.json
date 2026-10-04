@@ -1,0 +1,18 @@
+[
+  {
+    "company": "gis",
+    "name": "PT Global Inti Sejati",
+    "api": "https://globalinti.com/wp-json/wp/v2/posts",
+    "category": 10,
+    "archiveUrl": "https://globalinti.com/safety-topic/",
+    "absensiUrl": "https://globalinti.com/absensi-toolsbox-meeting/"
+  },
+  {
+    "company": "gmi",
+    "name": "PT Garuda Mart Indonesia",
+    "api": null,
+    "category": null,
+    "archiveUrl": null,
+    "absensiUrl": null
+  }
+]

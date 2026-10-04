@@ -1,0 +1,1410 @@
+{
+  "hero": {
+    "title": "Seluruh Website Lourdes,",
+    "highlight": "satu pintu.",
+    "subtitle": "{jumlah} tautan dari Lourdes, Garuda Mart Indonesia, dan Global Inti Sejati — formulir karyawan, K3, katalog produk, hingga karier.",
+    "popular": [
+      "gis-absensi-toolbox",
+      "gis-safety-topic",
+      "lourdes-products",
+      "gis-kepuasan-it",
+      "gis-golden-rules"
+    ]
+  },
+  "departments": [
+    {
+      "id": "hse",
+      "label": "HSE / K3"
+    },
+    {
+      "id": "hrga",
+      "label": "HRD & GA"
+    },
+    {
+      "id": "it",
+      "label": "IT"
+    },
+    {
+      "id": "sales",
+      "label": "Sales & Marketing"
+    },
+    {
+      "id": "finance",
+      "label": "Finance & Accounting"
+    },
+    {
+      "id": "purchasing",
+      "label": "Purchasing"
+    },
+    {
+      "id": "gudang",
+      "label": "Gudang & Logistik"
+    },
+    {
+      "id": "engineering",
+      "label": "Engineering / Teknisi"
+    },
+    {
+      "id": "operasional",
+      "label": "Operasional"
+    },
+    {
+      "id": "manajemen",
+      "label": "Manajemen"
+    }
+  ],
+  "categories": [
+    {
+      "id": "utama",
+      "label": "Website Utama",
+      "description": "Beranda resmi tiap perusahaan",
+      "icon": "globe"
+    },
+    {
+      "id": "karyawan",
+      "label": "Layanan Karyawan",
+      "description": "Absensi, survei, dan formulir internal",
+      "icon": "clipboard-check"
+    },
+    {
+      "id": "k3",
+      "label": "K3 & Safety",
+      "description": "Safety topic, golden rules, kebijakan K3L",
+      "icon": "hard-hat"
+    },
+    {
+      "id": "produk",
+      "label": "Produk & Katalog",
+      "description": "Kategori produk kelistrikan",
+      "icon": "package"
+    },
+    {
+      "id": "karier",
+      "label": "Karier",
+      "description": "Lowongan & program magang",
+      "icon": "briefcase"
+    },
+    {
+      "id": "profil",
+      "label": "Profil Perusahaan",
+      "description": "Tentang kami, layanan, FAQ",
+      "icon": "building"
+    },
+    {
+      "id": "bantuan",
+      "label": "Bantuan & Kontak",
+      "description": "Kontak, help center, retur",
+      "icon": "help"
+    },
+    {
+      "id": "akun",
+      "label": "Akun & Belanja",
+      "description": "Toko online, akun, keranjang",
+      "icon": "cart"
+    },
+    {
+      "id": "artikel",
+      "label": "Artikel & Event",
+      "description": "Blog dan acara perusahaan",
+      "icon": "book"
+    }
+  ],
+  "companies": [
+    {
+      "id": "lourdes",
+      "name": "Lourdes Auto Parts",
+      "shortName": "Lourdes",
+      "legalName": "Lourdes Auto Parts",
+      "tagline": "Best Automotive Electrical Product & Services",
+      "description": "Merek produk kelistrikan otomotif untuk sektor pertambangan, industri, kehutanan, serta minyak & gas di seluruh Indonesia. Berdiri sejak 2009, didistribusikan melalui PT Garuda Mart Indonesia dan PT Global Inti Sejati.",
+      "website": "https://lourdesautoparts.com",
+      "logo": {
+        "landscape": "lourdes-logo"
+      },
+      "color": "#0b5a94",
+      "colorDark": "#5aa9e6",
+      "phone": "(021) 8240 7309",
+      "email": "info@lourdesautoparts.com",
+      "hours": "Senin – Jumat, 08.00 – 17.00",
+      "mapsQuery": "Lourdes Autoparts Jatiasih Bekasi",
+      "highlights": [
+        "Sejak 2009",
+        "12 kategori produk",
+        "Pertambangan · Industri · Migas"
+      ],
+      "slide": "slide"
+    },
+    {
+      "id": "gmi",
+      "name": "Garuda Mart Indonesia",
+      "shortName": "GMI",
+      "legalName": "PT Garuda Mart Indonesia",
+      "tagline": "Automotive Electrical Product and Service Provider",
+      "description": "Distributor resmi produk Lourdes untuk kelistrikan otomotif — penyedia produk dan layanan kelistrikan kendaraan.",
+      "website": "https://garudamart.com",
+      "logo": {
+        "landscape": "gmi-landscape",
+        "mark": "gmi-logo"
+      },
+      "color": "#1c1c8f",
+      "colorDark": "#9a9cf5",
+      "address": "Sakura Regency J5-8A, Jatiasih, Bekasi 17423",
+      "phone": "(021) 8240 7309",
+      "email": "info@garudamart.com",
+      "hours": "Senin – Jumat, 08.00 – 17.00",
+      "mapsQuery": "Sakura Regency Jatiasih Bekasi",
+      "highlights": [
+        "Distributor Lourdes",
+        "Kelistrikan otomotif",
+        "Jatiasih, Bekasi"
+      ],
+      "slide": "slide5"
+    },
+    {
+      "id": "gis",
+      "name": "Global Inti Sejati",
+      "shortName": "GIS",
+      "legalName": "PT Global Inti Sejati",
+      "tagline": "Heavy Duty Electrical Product and Service Provider",
+      "description": "Penyedia produk dan layanan kelistrikan heavy duty untuk alat berat di area tambang dan industri, sekaligus distributor produk Lourdes.",
+      "website": "https://globalinti.com",
+      "logo": {
+        "landscape": "gis-landscape",
+        "mark": "gis-logo"
+      },
+      "color": "#2f8a3a",
+      "colorDark": "#7fd38a",
+      "address": "Jl. Wibawa Mukti II No. 88 RT 03/01, Jatiasih, Bekasi 17425",
+      "phone": "(021) 8274 1900",
+      "email": "info@globalinti.com",
+      "hours": "Senin – Jumat, 08.00 – 17.00",
+      "mapsQuery": "GIS Building Jl. Wibawa Mukti II No.88 Jatiasih Bekasi",
+      "highlights": [
+        "Heavy duty electrical",
+        "Safety Topic harian",
+        "Jatiasih, Bekasi"
+      ],
+      "slide": "slide2"
+    }
+  ],
+  "links": [
+    {
+      "id": "lourdes-home",
+      "title": "Lourdes Auto Parts",
+      "url": "https://lourdesautoparts.com/",
+      "company": "lourdes",
+      "category": "utama",
+      "type": "website",
+      "description": "Website resmi & toko online produk kelistrikan otomotif Lourdes.",
+      "tags": [
+        "lourdes",
+        "beranda",
+        "website resmi",
+        "toko"
+      ],
+      "departments": [
+        "manajemen",
+        "sales"
+      ],
+      "featured": true,
+      "thumbnail": {
+        "file": "lourdes-home-c3d533bf",
+        "blur": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAAAQBACdASoYAA8APu1kqk4ppaQiMAgBMB2JYgCsICXDAkUU8B5FYEet4AD2R5FA7jewLsmklIMfbO0uTu7MdPHCaBca2Cf03I3UCUh2/XQc02LGnTbl7Z4dQ53Ffv7lvejGXRdGj9oftE/lrLfSrwjMGm8spsPA8w3Mx4W9rj/WEceS5eK3zx9LYW2PhgmcD7J3TN7txAaQAA=="
+      }
+    },
+    {
+      "id": "gmi-home",
+      "title": "Garuda Mart Indonesia",
+      "url": "https://garudamart.com/",
+      "company": "gmi",
+      "category": "utama",
+      "type": "website",
+      "description": "Website resmi PT Garuda Mart Indonesia, distributor produk Lourdes.",
+      "tags": [
+        "gmi",
+        "garuda",
+        "beranda",
+        "website resmi",
+        "distributor"
+      ],
+      "departments": [
+        "manajemen",
+        "sales"
+      ],
+      "featured": true
+    },
+    {
+      "id": "gis-home",
+      "title": "Global Inti Sejati",
+      "url": "https://globalinti.com/",
+      "company": "gis",
+      "category": "utama",
+      "type": "website",
+      "description": "Website resmi PT Global Inti Sejati — heavy duty electrical product & service.",
+      "tags": [
+        "gis",
+        "global inti",
+        "beranda",
+        "website resmi"
+      ],
+      "departments": [
+        "manajemen",
+        "sales"
+      ],
+      "featured": true,
+      "thumbnail": {
+        "file": "gis-home-8a3c01a4",
+        "blur": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAABQBACdASoYAA8APu1iqk4ppaQiMAgBMB2JYwDCkf/gQH3iHkmVZGm1H3sAAP7pKDcKdije2aSOrwi549kp747khRQm5NNIS6E+Uo3sk0NoCtfiST++kDW3aDLfrE73lw7oWY7xvsUIEpMbALGhYch5+OfrDU9A/mfK2T5MZ3wOsZVMm/aF3vSNpPmsDfI0eys4AA=="
+      }
+    },
+    {
+      "id": "gis-absensi-toolbox",
+      "title": "Absensi Toolbox Meeting GIS",
+      "url": "https://globalinti.com/absensi-toolsbox-meeting/",
+      "company": "gis",
+      "category": "karyawan",
+      "type": "formulir",
+      "description": "Khusus karyawan GIS: isi daftar hadir toolbox meeting harian sebelum mulai bekerja.",
+      "tags": [
+        "absen",
+        "presensi",
+        "kehadiran",
+        "toolbox",
+        "tbm",
+        "meeting pagi"
+      ],
+      "departments": [
+        "hse",
+        "operasional",
+        "engineering",
+        "gudang"
+      ],
+      "featured": true,
+      "internal": true,
+      "thumbnail": {
+        "file": "gis-absensi-toolbox-24a4c5f0",
+        "blur": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAAAwBACdASoYAA8APu1qrU8ppiQiMAgBMB2JZQABJPaPfbWxGYx3/OnrE4AA/vqQzTYuPkpWFkGU/d2llsw/f/9Hmapj5P+5hf4XHdcvgHH8NDR0ieaL7BUCjpN+A+rP2Ug+Q6sYzZt8eDkNbWLmyGunbk3K1hZCeOMopbGZEP15gWAA"
+      }
+    },
+    {
+      "id": "gis-kepuasan-it",
+      "title": "Survei Kepuasan User IT",
+      "url": "https://globalinti.com/kepuasan-user-it/",
+      "company": "gis",
+      "category": "karyawan",
+      "type": "formulir",
+      "description": "Beri penilaian dan masukan untuk layanan tim IT.",
+      "tags": [
+        "it",
+        "survei",
+        "kuesioner",
+        "helpdesk",
+        "feedback",
+        "penilaian"
+      ],
+      "departments": [
+        "it"
+      ],
+      "featured": true,
+      "internal": true,
+      "thumbnail": {
+        "file": "gis-kepuasan-it-29634f2c",
+        "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAACQAwCdASoYAA8APu1kqk4ppaQiMAgBMB2JZwAAW+XhWZ7O7wYAAP5b/0M+E6Vlop+B0bE6+3xr2w4NBkWcB+JxIPot0xFF2QMKUK0vtXWeVFGNnVZGgAAA"
+      }
+    },
+    {
+      "id": "gis-form-testimoni",
+      "title": "Form Testimoni",
+      "url": "https://globalinti.com/form-testimoni/",
+      "company": "gis",
+      "category": "karyawan",
+      "type": "formulir",
+      "description": "Kirim testimoni pelanggan atau mitra untuk GIS.",
+      "tags": [
+        "testimoni",
+        "ulasan",
+        "review",
+        "pelanggan"
+      ],
+      "departments": [
+        "sales"
+      ],
+      "internal": true,
+      "thumbnail": {
+        "file": "gis-form-testimoni-d1cb0c55",
+        "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAABwAwCdASoYAA8APu1kqU2ppaQiMAgBMB2JZwAAW+sYNxz1jAAA/lv/QwkK7y5NzXF1761pHAMZgxQIOxbj9GQUFqQBcQQdfzsGRIk8IAA="
+      }
+    },
+    {
+      "id": "gis-safety-topic",
+      "title": "Safety Topic Harian GIS",
+      "url": "https://globalinti.com/safety-topic/",
+      "company": "gis",
+      "category": "k3",
+      "type": "halaman",
+      "description": "Materi K3 harian GIS untuk safety talk dan toolbox meeting.",
+      "tags": [
+        "k3",
+        "safety talk",
+        "hse",
+        "keselamatan",
+        "kesehatan",
+        "toolbox"
+      ],
+      "departments": [
+        "hse",
+        "operasional",
+        "engineering",
+        "gudang"
+      ],
+      "featured": true,
+      "internal": true,
+      "thumbnail": {
+        "file": "gis-safety-topic-3f647ea5",
+        "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADwAwCdASoYAA8APu1iqk2ppaQiMAgBMB2JZwAAYcwcstENQLS7F7AgAP7pJ96JhhMb4tvwWSK8rCNVG9o9sqry3BFXaFlBcThvN4+WNkRAl0/euv52DIkSh6AAAA=="
+      }
+    },
+    {
+      "id": "gis-golden-rules",
+      "title": "Golden Rules K3",
+      "url": "https://globalinti.com/golden-rules-k3-pt-global-inti-sejati-4/",
+      "company": "gis",
+      "category": "k3",
+      "type": "artikel",
+      "description": "Aturan emas keselamatan & kesehatan kerja PT Global Inti Sejati.",
+      "tags": [
+        "golden rules",
+        "aturan",
+        "k3",
+        "hse",
+        "keselamatan"
+      ],
+      "departments": [
+        "hse",
+        "operasional",
+        "engineering",
+        "gudang"
+      ],
+      "featured": true,
+      "internal": true,
+      "thumbnail": {
+        "file": "gis-golden-rules-0f6c4b2c",
+        "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABQAwCdASoYAA8APu1Ct1apoqakGAEwHYlpAAEd6xdXgivoAAD+56/+Key9hgYymo79ZfSMKwn9ACtQshW8WxuKvKY98yVnpKbE7wMeHMfNWPmz8gAAAA=="
+      }
+    },
+    {
+      "id": "gis-pakta-integritas",
+      "title": "Pakta Integritas K3L",
+      "url": "https://globalinti.com/pakta-integritas-kesehatan-kerja-keselamatan-kerja-dan-lingkungan-pt-global-inti-sejati-2/",
+      "company": "gis",
+      "category": "k3",
+      "type": "artikel",
+      "description": "Pakta integritas kesehatan kerja, keselamatan kerja, dan lingkungan.",
+      "tags": [
+        "pakta",
+        "integritas",
+        "k3l",
+        "lingkungan",
+        "komitmen"
+      ],
+      "departments": [
+        "hse",
+        "hrga",
+        "manajemen"
+      ],
+      "internal": true,
+      "thumbnail": {
+        "file": "gis-pakta-integritas-95f2b122",
+        "blur": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADwAwCdASoYAA8APu1iqU2ppaOiMAgBMB2JZwAAW9aeHMCmmA9mujaAAP6Rv2eCW0zWKFw+kFW6oWVfYFbrNfKx1vg+O09ryKH72HIqbtEDNy1hApMgb68Vgpd+QXrfIINfchnkmBBwQTkAAAPsa+AA"
+      }
+    },
+    {
+      "id": "gis-kebijakan-narkoba",
+      "title": "Kebijakan Larangan Narkoba & Miras",
+      "url": "https://globalinti.com/kebijakan-dan-komitmen-manajemen-terhadap-larangan-obat-obatan-dan-minuman-keras/",
+      "company": "gis",
+      "category": "k3",
+      "type": "artikel",
+      "description": "Kebijakan dan komitmen manajemen terhadap larangan obat-obatan dan minuman keras.",
+      "tags": [
+        "kebijakan",
+        "narkoba",
+        "miras",
+        "alkohol",
+        "obat-obatan",
+        "d&a"
+      ],
+      "departments": [
+        "hse",
+        "hrga",
+        "manajemen"
+      ],
+      "internal": true,
+      "thumbnail": {
+        "file": "gis-kebijakan-narkoba-e6575f13",
+        "blur": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAADwAwCdASoYAA8APu1iqU2ppaOiMAgBMB2JZwAAW7YZqwCrtDGSQiYAAP6Rv2eCeTuwM+fB7QPzqAmPI3NSgQrtE6a2kSvVydeInikcC334kpAfcx7980Y8lMZj1GuziSsH6SVPD5eJ2FWlvQAA+xr4AAA="
+      }
+    },
+    {
+      "id": "gis-loto",
+      "title": "Prosedur LOTO (Lockout Tagout)",
+      "url": "https://globalinti.com/loto-lockout-tagout/",
+      "company": "gis",
+      "category": "k3",
+      "type": "artikel",
+      "description": "Prosedur isolasi energi berbahaya saat perbaikan dan perawatan alat.",
+      "tags": [
+        "loto",
+        "lockout",
+        "tagout",
+        "isolasi energi",
+        "maintenance"
+      ],
+      "departments": [
+        "hse",
+        "engineering",
+        "operasional"
+      ],
+      "thumbnail": {
+        "file": "gis-loto-82eae3fa",
+        "blur": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAAAQBACdASoYAA8APu1iqU2ppaOiMAgBMB2JbACdMoACseBvf6DLje/eAAD3HxxDETDVMFA3HNbWuSv7Y1FbyDX8F2L3elzE+UWoKhHvPHnNFDFhA/+5VB9wD+DG+HjA8gMV0QXQsK/k53Tz0/G5f++9ODyBskQmbUv+P5H3qdHU3IErLtDB5NGHgAA="
+      }
+    },
+    {
+      "id": "gis-apar",
+      "title": "Pengoperasian APAR",
+      "url": "https://globalinti.com/pengoperasian-apar-alat-pemadam-api-ringan/",
+      "company": "gis",
+      "category": "k3",
+      "type": "artikel",
+      "description": "Cara menggunakan alat pemadam api ringan dengan benar.",
+      "tags": [
+        "apar",
+        "pemadam",
+        "kebakaran",
+        "api",
+        "tanggap darurat"
+      ],
+      "departments": [
+        "hse",
+        "operasional",
+        "engineering",
+        "gudang"
+      ],
+      "thumbnail": {
+        "file": "gis-apar-474020c5",
+        "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAABwAwCdASoYAA8ALrV2u12jqampiYC0S0gABc65pQDJNDl6M+AA/sYH6/OnfA4m7Y2VEFrYOlddwsGaar7d4ShXoU9JyFK49EC3NlWfvfham7uMmNkuYgAA"
+      }
+    },
+    {
+      "id": "gis-drscab",
+      "title": "Pertolongan Pertama (DRSCAB)",
+      "url": "https://globalinti.com/panduan-pertolongan-pertama-menggunakan-metode-drscab/",
+      "company": "gis",
+      "category": "k3",
+      "type": "artikel",
+      "description": "Panduan pertolongan pertama menggunakan metode DRSCAB.",
+      "tags": [
+        "p3k",
+        "first aid",
+        "pertolongan pertama",
+        "darurat",
+        "cpr"
+      ],
+      "departments": [
+        "hse",
+        "operasional",
+        "engineering",
+        "gudang"
+      ],
+      "thumbnail": {
+        "file": "gis-drscab-de2c0d81",
+        "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAACwAwCdASoYAA8APu1yrU+pp6QiMAgBMB2JaQAAW+x01K/dCNP5AAD+kb9ngnk7cdFm/xGZe0FnAJni3Z9gV1tsfm4H3tJm3DpnCqlGOApqnhj3CkdSRYngAYPUeAAA"
+      }
+    },
+    {
+      "id": "gis-tanggap-darurat",
+      "title": "Kesiapsiagaan & Tanggap Darurat",
+      "url": "https://globalinti.com/kesiapsiagaan-dan-tanggap-darurat-di-area-kerja/",
+      "company": "gis",
+      "category": "k3",
+      "type": "artikel",
+      "description": "Langkah kesiapsiagaan dan tanggap darurat di area kerja.",
+      "tags": [
+        "darurat",
+        "emergency",
+        "evakuasi",
+        "erp"
+      ],
+      "departments": [
+        "hse",
+        "operasional",
+        "engineering",
+        "gudang"
+      ],
+      "thumbnail": {
+        "file": "gis-tanggap-darurat-db5ff592",
+        "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAABwAwCdASoYAA8ALrV2u12jqampiYC0S0gABc65kOOkC1mJMAAA/sYH3lP4hyRz+G1fknvqSiybmzYahFyWrHe6LVfvjgqBahQqxR7xAqLuM6IAAAA="
+      }
+    },
+    {
+      "id": "gis-dasar-hukum-k3",
+      "title": "Dasar Hukum K3 di Indonesia",
+      "url": "https://globalinti.com/dasar-hukum-keselamatan-dan-kesehatan-kerja-k3-di-indonesia/",
+      "company": "gis",
+      "category": "k3",
+      "type": "artikel",
+      "description": "Ringkasan regulasi keselamatan dan kesehatan kerja di Indonesia.",
+      "tags": [
+        "regulasi",
+        "undang-undang",
+        "hukum",
+        "k3",
+        "permenaker"
+      ],
+      "departments": [
+        "hse",
+        "hrga",
+        "manajemen"
+      ],
+      "thumbnail": {
+        "file": "gis-dasar-hukum-k3-f5654731",
+        "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAACQAwCdASoYAA8APu1krU2ppaSiMAgBMB2JaQAAW7j9XLjfZBaAAP6Rv2eIl6B/oCGSe00/oCTXTzv6fYzxbs8LggbTR3xtcNHi19Rrs4krC2RIqp5J4zjWSWXbgAYPUeAAAA=="
+      }
+    },
+    {
+      "id": "lourdes-products",
+      "title": "Semua Produk Lourdes",
+      "url": "https://lourdesautoparts.com/page-products/",
+      "company": "lourdes",
+      "category": "produk",
+      "type": "katalog",
+      "description": "Katalog lengkap seluruh kategori produk kelistrikan Lourdes.",
+      "tags": [
+        "katalog",
+        "produk",
+        "semua produk",
+        "catalog"
+      ],
+      "departments": [
+        "sales",
+        "purchasing",
+        "gudang",
+        "engineering"
+      ],
+      "featured": true,
+      "thumbnail": {
+        "file": "lourdes-products-7ec1bb04",
+        "blur": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAAAQBACdASoYAA8APu1iqU2ppaOiMAgBMB2JQBOkBshgb/0cze0GnQUTAADN87M7pE0RdlAvZ1tkFFQquJcBL04WQlGM9KbxgSx7HyuekUEYXdOrbrkG+Bkn+8XzizUPiB+d1O3f2Z/E77QKY+57qTuIT2XL6s+jFwxxbm4UAAA="
+      }
+    },
+    {
+      "id": "lourdes-shop",
+      "title": "Toko Online Lourdes",
+      "url": "https://lourdesautoparts.com/shop/",
+      "company": "lourdes",
+      "category": "akun",
+      "type": "katalog",
+      "description": "Belanja produk Lourdes secara online.",
+      "tags": [
+        "toko",
+        "shop",
+        "beli",
+        "belanja",
+        "e-commerce"
+      ],
+      "departments": [
+        "sales",
+        "purchasing"
+      ],
+      "thumbnail": {
+        "file": "lourdes-shop-2a668d40",
+        "blur": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAADQAwCdASoYAA8APu1mq04ppaQiMAgBMB2JYgCdG1/AWJ6kJXMAEIgA8qdVSrf7Hdg6wxvgqG3N7thRyw1/vx6B8V7Q+lwZItKG1SMSAiXPtYIezH2SzP4nfaBTHp49WFo/rr1jxCRxM85MwiaoOqcy8R7kbu/C7YBoDvPhUDCQMAAA"
+      }
+    },
+    {
+      "id": "lourdes-warning-light-backup-alarms",
+      "title": "Warning Light & Backup Alarms",
+      "url": "https://lourdesautoparts.com/warning-light-backup-alarms/",
+      "company": "lourdes",
+      "category": "produk",
+      "type": "katalog",
+      "description": "Lampu rotari, strobe, beacon, dan alarm mundur untuk kendaraan tambang.",
+      "tags": [
+        "lampu peringatan",
+        "rotary",
+        "strobe",
+        "beacon",
+        "alarm mundur",
+        "buzzer"
+      ],
+      "departments": [
+        "sales",
+        "purchasing",
+        "gudang",
+        "engineering"
+      ],
+      "thumbnail": {
+        "file": "lourdes-warning-light-backup-alarms-443f8ecd",
+        "blur": "data:image/webp;base64,UklGRu4AAABXRUJQVlA4IOIAAADwBACdASoYAA8APu1iqU2ppaOiMAgBMB2JbACdH8EwAbzMRGgnKVd8w+40NqxbJrAA/uuvdowu3Yxl6Ec4ebb7haRoPe26eBcJSskeRuvj7HQAs0/JWI4TA86aVUAqYhkEwG2SCw4IzxNXrsndM9iiiMSnLNVEvGsnxiYZf5meD+OOTx/pjLrH3Ecxv9ieprU0Nm6OHcJHRnRMcuznkhk84/k6e7hVzI2Vas6xIzACRybyf3081+zSCrJDPAtbkNOu+ilqwgwuNM3te2AwGP9j+tH5bfYdyG3pd8Vv1HW2+IAA"
+      }
+    },
+    {
+      "id": "lourdes-switches-solenoids",
+      "title": "Switches & Solenoids",
+      "url": "https://lourdesautoparts.com/switches-solenoids/",
+      "company": "lourdes",
+      "category": "produk",
+      "type": "katalog",
+      "description": "Saklar, master switch, isolator baterai, dan solenoid.",
+      "tags": [
+        "saklar",
+        "master switch",
+        "isolator",
+        "relay starter"
+      ],
+      "departments": [
+        "sales",
+        "purchasing",
+        "gudang",
+        "engineering"
+      ],
+      "thumbnail": {
+        "file": "lourdes-switches-solenoids-89b8baaf",
+        "blur": "data:image/webp;base64,UklGRtAAAABXRUJQVlA4IMQAAABwBACdASoYAA8APu1iqU2ppaOiMAgBMB2JaACdAdYDZPk39blpHKrjJgHtAAD+8BZRsO7klRzxSGTGf6pax36ccsq96hcN8w7ncuKX127gvF892W1g3JEWxKkG8PhX70PH4rXr+6flblZxEkxm1VFwVCeyTmIdvB8LS9TNdXNbLTxNtJv/o3XXsRlHj3TnFuBApMGKVgKW+z2U6y6XbV2c0WK6qsA5AnPyCX94nLb9MaFJzdxPGj+a7rz2aVhRdZ09AAAA"
+      }
+    },
+    {
+      "id": "lourdes-power-product",
+      "title": "Power Product",
+      "url": "https://lourdesautoparts.com/power-product/",
+      "company": "lourdes",
+      "category": "produk",
+      "type": "katalog",
+      "description": "DC converter, inverter, charger, dan produk daya kendaraan.",
+      "tags": [
+        "converter",
+        "inverter",
+        "charger",
+        "baterai",
+        "daya"
+      ],
+      "departments": [
+        "sales",
+        "purchasing",
+        "gudang",
+        "engineering"
+      ],
+      "thumbnail": {
+        "file": "lourdes-power-product-08a73aef",
+        "blur": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4IKAAAABQBACdASoYAA8APu1iqU2ppaOiMAgBMB2JZwAD5koOFaLR7RqBO+NvqtKAAP3jvqSAmb6fWLfHJJOvTUYm6GmfMfZfEePnQLM4F1DUZ/aYIAOaCisSWyWgH66RYvFj6wKx2wISiUPF/LRIhJQfy2TKZh6bGOB1Umj8q/zoUp/rGQJTreM26lOhnMe1vCd+1OtzMr2rmVPY6xlOSO2HAAAA"
+      }
+    },
+    {
+      "id": "lourdes-led-truck-trailer-lighting",
+      "title": "LED Truck & Trailer Lighting",
+      "url": "https://lourdesautoparts.com/led-truck-trailer-lighting/",
+      "company": "lourdes",
+      "category": "produk",
+      "type": "katalog",
+      "description": "Lampu LED untuk truk, trailer, dan kendaraan berat.",
+      "tags": [
+        "lampu",
+        "led",
+        "truk",
+        "trailer",
+        "stop lamp"
+      ],
+      "departments": [
+        "sales",
+        "purchasing",
+        "gudang",
+        "engineering"
+      ],
+      "thumbnail": {
+        "file": "lourdes-led-truck-trailer-lighting-1bf3ce71",
+        "blur": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAACwBACdASoYAA8APu1iqU2ppaQiMAgBMB2JbACdMoR3IsAA39mcE5sFvf4oTY2AAP7zdITuJQypdFq1Xi6K+wRLVx8+ndVVN9XLjgpzjE5cIhEcBuhQX0aWzO81q9PMctezznI2z37oNQEgtcjWBI93J106ysMVpvrR7puT3mejZw7eRvNGfow5IQ+Pbo7uTxsvqsGL0ByAYobrbiK5Z3UCSAA="
+      }
+    },
+    {
+      "id": "lourdes-work-lamp-flood-light",
+      "title": "Work Lamp & Flood Light",
+      "url": "https://lourdesautoparts.com/work-lamp-flood-light/",
+      "company": "lourdes",
+      "category": "produk",
+      "type": "katalog",
+      "description": "Lampu kerja dan flood light LED untuk alat berat.",
+      "tags": [
+        "lampu kerja",
+        "sorot",
+        "led",
+        "flood"
+      ],
+      "departments": [
+        "sales",
+        "purchasing",
+        "gudang",
+        "engineering"
+      ],
+      "thumbnail": {
+        "file": "lourdes-work-lamp-flood-light-357d269d",
+        "blur": "data:image/webp;base64,UklGRsIAAABXRUJQVlA4ILYAAAAwBACdASoYAA8APu1iqU2ppaOiMAgBMB2JZwAEmA5SB2oXgVl2Gt9woAAA/vN7fz0GCNRF3gXBYKD9vzruUp9jmDGt/fOx/MVHn1Zk4pmKIK8H4EuT8CACbekAtPw5Y1xGra2oxd1hcuvUbqQpWdC37uEn29N+8hBWIK6xvTk1B2kf+nWqMP7kiYYkXSkg365/AKLfBQytLh/yUIPidX7B7QhfOJbOuz3/mZsFjeyo8ANKs33AAA=="
+      }
+    },
+    {
+      "id": "lourdes-instrument-timers-tools-equipment",
+      "title": "Instrument, Timers, Tools & Equipment",
+      "url": "https://lourdesautoparts.com/instrument-timers-tools-equipment/",
+      "company": "lourdes",
+      "category": "produk",
+      "type": "katalog",
+      "description": "Instrumen, timer, alat ukur, dan perkakas kelistrikan.",
+      "tags": [
+        "alat ukur",
+        "timer",
+        "perkakas",
+        "multimeter"
+      ],
+      "departments": [
+        "sales",
+        "purchasing",
+        "gudang",
+        "engineering"
+      ],
+      "thumbnail": {
+        "file": "lourdes-instrument-timers-tools-equipment-135660b6",
+        "blur": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAACwAwCdASoYAA8APu1Ct1apoqakGAEwHYlkAMssIcV/cfe59VtEgAD+82/bs5B6VngI0uZ6tTHzx6BzzpIDAVBde7fOR7Jm26H7N+2mvxJvunTjSOU67kXaCDtf5iyTh8ShtKhZHp0x+XyBVd+Gq9opvdoyhobM8hwCR7gU8cwAAA=="
+      }
+    },
+    {
+      "id": "lourdes-fuse-circuit-breakers-relays-flasher",
+      "title": "Fuse, Circuit Breakers, Relays & Flasher",
+      "url": "https://lourdesautoparts.com/fuse-circuit-breakers-relays-flasher/",
+      "company": "lourdes",
+      "category": "produk",
+      "type": "katalog",
+      "description": "Sekring, MCB, relay, dan flasher.",
+      "tags": [
+        "sekring",
+        "mcb",
+        "pemutus arus",
+        "relay"
+      ],
+      "departments": [
+        "sales",
+        "purchasing",
+        "gudang",
+        "engineering"
+      ],
+      "thumbnail": {
+        "file": "lourdes-fuse-circuit-breakers-relays-flasher-730a261e",
+        "blur": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAADwAwCdASoYAA8APu1iqU2ppaOiMAgBMB2JZQAD5SoNowLO8PRN2UlwAP7x1Y0OF/VJD5tGf7JTDJnqiTcHVCcWXR7N0NvPZinWHJ69gdb8Y0v23tUQ1wvkzG/VO0fX0kDXOE/HPJ3rPpHULlWl3alP722NBJqb+L7Dox8kLFFwc7HVoMmpXgyO/3IXc/1j7z3jR9aybv9jHS3sRETRYACUAAA="
+      }
+    },
+    {
+      "id": "lourdes-engine-safety-device-protection-system",
+      "title": "Engine Safety Device & Protection System",
+      "url": "https://lourdesautoparts.com/engine-safety-device-protection-system/",
+      "company": "lourdes",
+      "category": "produk",
+      "type": "katalog",
+      "description": "Perangkat proteksi mesin, ESD, dan sistem keselamatan alat berat.",
+      "tags": [
+        "esd",
+        "proteksi mesin",
+        "shutdown",
+        "keselamatan"
+      ],
+      "departments": [
+        "sales",
+        "purchasing",
+        "gudang",
+        "engineering"
+      ],
+      "thumbnail": {
+        "file": "lourdes-engine-safety-device-protection-system-c34cf82e",
+        "blur": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAABwBACdASoYAA8APu1qrU8ppiQiMAgBMB2JZQAD5DoOAFH7VX/6y7gOGwqQAAD+83UD1OPGbrAzCWI3sIpIcbB6SFIWV/I8eNamtJ468X0yI9V4mZ4JWR/JSWDO02ACT0iW7AGY42bO4W6IKczH5CCfj738pOKVpJ9t612hqh5JGWGaxWqMDJayatoQAAAA"
+      }
+    },
+    {
+      "id": "lourdes-crimp-terminals-connectors",
+      "title": "Crimp Terminals & Connectors",
+      "url": "https://lourdesautoparts.com/crimp-terminals-connectors/",
+      "company": "lourdes",
+      "category": "produk",
+      "type": "katalog",
+      "description": "Terminal crimp, konektor Deutsch, dan aksesori sambungan.",
+      "tags": [
+        "terminal",
+        "konektor",
+        "soket",
+        "deutsch"
+      ],
+      "departments": [
+        "sales",
+        "purchasing",
+        "gudang",
+        "engineering"
+      ],
+      "thumbnail": {
+        "file": "lourdes-crimp-terminals-connectors-48e47d48",
+        "blur": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAAAwBACdASoYAA8APu1orU2ppqSiMAgBMB2JZQDImYt830Fj99+UcNZ2KKAA/vNvAuWUg2LcqeCwO7qht34s0HROkA5r5hb9g0SbzjaDPgiQ+oYm76SeZRdOo6WIsNUfIvJWOAVJExIKl+K3lrA9oH76nvye+vWdlG0oiiMch5Ghl9/Jvm7MAhYo27OKA+0xffYhwAAA"
+      }
+    },
+    {
+      "id": "lourdes-cables-cable-accessories",
+      "title": "Cables & Cable Accessories",
+      "url": "https://lourdesautoparts.com/cables-cable-accessories/",
+      "company": "lourdes",
+      "category": "produk",
+      "type": "katalog",
+      "description": "Kabel, conduit, cable tie, dan aksesori pengkabelan.",
+      "tags": [
+        "kabel",
+        "conduit",
+        "cable tie",
+        "wiring"
+      ],
+      "departments": [
+        "sales",
+        "purchasing",
+        "gudang",
+        "engineering"
+      ],
+      "thumbnail": {
+        "file": "lourdes-cables-cable-accessories-c7198f35",
+        "blur": "data:image/webp;base64,UklGRroAAABXRUJQVlA4IK4AAADQBACdASoYAA8APu1iqU2ppaQiMAgBMB2JZADG+rAMsAFQJROpedD/N37IZDesgAD+83U+XT0oio6amr69yKt6qhs96Ay2vpVMzA5LUqH+klKnCJrh4ts9LFUxWnQCPvDfLXt1YRFQn1Rtl7TREJ6CIFFGNGCsHDqcz2Rvro8KqdCaYleI/NCGxt1fdJjTJF6/IoBWMqdqwVOPxSvzCYZeMb7No54olJsAjjPAAAA="
+      }
+    },
+    {
+      "id": "lourdes-bulb-globe",
+      "title": "Bulb & Globe",
+      "url": "https://lourdesautoparts.com/bulb-globe/",
+      "company": "lourdes",
+      "category": "produk",
+      "type": "katalog",
+      "description": "Bohlam halogen dan pengganti lampu kendaraan.",
+      "tags": [
+        "bohlam",
+        "halogen",
+        "lampu"
+      ],
+      "departments": [
+        "sales",
+        "purchasing",
+        "gudang",
+        "engineering"
+      ],
+      "thumbnail": {
+        "file": "lourdes-bulb-globe-537bf2b6",
+        "blur": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAADQAwCdASoYAA8APu1iqU2ppaOiMAgBMB2JYwAD5RGD9xAdBKP4isgA/vI0V2cHFi2OTuEZTImvbcKolHSFotdoMhoxzvDUjwlCEVWsEAZ7YC9Vk1XjUe4vRMybjnr3ZmhOHqDhFZpPD5idI+SeEkcQIkkPjPi228hBP5HevvQCK9wG89DPRJXjyQtYzHzhnvt5fqnbO/72NOiHVTWuj0vKy4AAAA=="
+      }
+    },
+    {
+      "id": "lourdes-ac-spare-parts",
+      "title": "AC Spare Parts",
+      "url": "https://lourdesautoparts.com/ac-spare-parts/",
+      "company": "lourdes",
+      "category": "produk",
+      "type": "katalog",
+      "description": "Suku cadang AC kendaraan dan alat berat.",
+      "tags": [
+        "ac",
+        "pendingin",
+        "kompresor",
+        "spare part"
+      ],
+      "departments": [
+        "sales",
+        "purchasing",
+        "gudang",
+        "engineering"
+      ],
+      "thumbnail": {
+        "file": "lourdes-ac-spare-parts-385251bd",
+        "blur": "data:image/webp;base64,UklGRsIAAABXRUJQVlA4ILYAAACQBACdASoYAA8APu1iqU2ppaOiMAgBMB2JaQAD5JocwrGVc9gvlJf7HzaS2gAA/eO859s9s0N8JjoOJVSjMjA2U6Pk48nR1WH030oMRt/QwzL3Hdpg7l1VX01wCD3SY1TaKobm4RoldDXgNj4tuiXXDcY6H+L7HzkzjmX5PzCXyT+zR2p6tOr8dmacyJNunDCqQ9SmIP2vmsPbR/Poj7AyjZYZk8DIhfd3B7W2Dgd7PYkGq6AAAA=="
+      }
+    },
+    {
+      "id": "gis-product",
+      "title": "Produk GIS",
+      "url": "https://globalinti.com/product/",
+      "company": "gis",
+      "category": "produk",
+      "type": "katalog",
+      "description": "Produk kelistrikan heavy duty yang disediakan GIS.",
+      "tags": [
+        "produk",
+        "heavy duty",
+        "alat berat"
+      ],
+      "departments": [
+        "sales",
+        "purchasing",
+        "gudang",
+        "engineering"
+      ],
+      "thumbnail": {
+        "file": "gis-product-7880c15d",
+        "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAwCdASoYAA8APu1kqU2ppaQiMAgBMB2JZwAAYcwRb6wNed7dGAAA/uknneuPr8o73oU66tNE7MiPYsTmLF+sLAjnX0qxH5UWu9fAuVE1aKm5wAA="
+      }
+    },
+    {
+      "id": "gis-career",
+      "title": "Karier di GIS",
+      "url": "https://globalinti.com/career/",
+      "company": "gis",
+      "category": "karier",
+      "type": "halaman",
+      "description": "Informasi lowongan kerja PT Global Inti Sejati.",
+      "tags": [
+        "lowongan",
+        "loker",
+        "rekrutmen",
+        "kerja",
+        "job"
+      ],
+      "departments": [
+        "hrga"
+      ],
+      "thumbnail": {
+        "file": "gis-career-33678083",
+        "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAwCdASoYAA8APu1oqk6ppiQiMAgBMB2JZwAAYcwdquuGHc3aW5hQAP7pJ938r+AP8FkivF1RmyJCAWiz5lW+SWg3iwlwWJJ+U1xhgtDrdTyomrRUnQAA"
+      }
+    },
+    {
+      "id": "gis-fresh-graduate",
+      "title": "Fresh Graduate Program",
+      "url": "https://globalinti.com/fresh-graduate/",
+      "company": "gis",
+      "category": "karier",
+      "type": "halaman",
+      "description": "Program rekrutmen untuk lulusan baru.",
+      "tags": [
+        "fresh graduate",
+        "lulusan baru",
+        "rekrutmen"
+      ],
+      "departments": [
+        "hrga"
+      ],
+      "thumbnail": {
+        "file": "gis-fresh-graduate-afc3e68e",
+        "blur": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAACwAwCdASoYAA8APu1iqU2ppaOiMAgBMB2JaAC/OCHM/FzLZhEJoAD335D0GATQrx4cA1iZjxFnARu+LHubo5DAF6hwiDW2p6KMqRNv7X0a448HOI988AvitTTo7OIWtdCAMkShw3Y5VlYqvN6ptvZzMG4KGNPggx3MxRk7gQDAAAAA"
+      }
+    },
+    {
+      "id": "gis-internship",
+      "title": "Internship / Magang",
+      "url": "https://globalinti.com/internship/",
+      "company": "gis",
+      "category": "karier",
+      "type": "halaman",
+      "description": "Program magang untuk mahasiswa dan pelajar.",
+      "tags": [
+        "magang",
+        "internship",
+        "pkl",
+        "mahasiswa"
+      ],
+      "departments": [
+        "hrga"
+      ],
+      "thumbnail": {
+        "file": "gis-internship-d3578c85",
+        "blur": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAACwAwCdASoYAA8APu1iqU2ppaOiMAgBMB2JaAC/OCHM/FzLZhEJoAD335D0GATQrx4cA1iZjxFnARu+LHubo5DAF6hwiDW2p6KMqRNv7X0a448HOI988AvitTTo7OIWtdCAMkShw3Y5VlYqvN6ptvZzMG4KGNPggx3MxRk7gQDAAAAA"
+      }
+    },
+    {
+      "id": "gis-professional",
+      "title": "Professional Hired",
+      "url": "https://globalinti.com/professional-hired/",
+      "company": "gis",
+      "category": "karier",
+      "type": "halaman",
+      "description": "Lowongan untuk tenaga profesional berpengalaman.",
+      "tags": [
+        "profesional",
+        "berpengalaman",
+        "lowongan"
+      ],
+      "departments": [
+        "hrga"
+      ],
+      "thumbnail": {
+        "file": "gis-professional-b5f3f102",
+        "blur": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAADQAwCdASoYAA8ALrV2u12jqampiYC0SxgGOKJiMCWmMQl6L1ZaDeAA99/Z0aE7wZFMIGL/u6yt9tYP98R+HT/Ls2vvY7qX923vqRPloQgljpeIZyNDZn1Anj5SxCi3n/8oUjzQvBdGJ1+oj+rS2rplzPY9JMNy0ZBCNuJX54TUMFCLJBXCgmxHqAAAAA=="
+      }
+    },
+    {
+      "id": "lourdes-about",
+      "title": "Tentang Lourdes",
+      "url": "https://lourdesautoparts.com/about-us/",
+      "company": "lourdes",
+      "category": "profil",
+      "type": "halaman",
+      "description": "Sejarah, visi, dan pengalaman Lourdes sejak 2009.",
+      "tags": [
+        "tentang",
+        "about",
+        "profil",
+        "sejarah",
+        "visi misi"
+      ],
+      "departments": [
+        "sales",
+        "manajemen"
+      ],
+      "thumbnail": {
+        "file": "lourdes-about-e30909c9",
+        "blur": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAABQBACdASoYAA8APu1iqk4ppaQiMAgBMB2JQBOkBswUgv97z9+ikQ3daKmAAM3zsztxoI77Mz8a+prL2W3zxJc4xmzi2xY1l9na4lg6z/+8+DdK+NBim2yBCBTjxmgl+Af9CDZO8CbXswK9VmSW2c8U+lagGo2NfzHWJE6FHIwAetsqXQfDIemDiSPQXGlq6JX3+7dHqcpL1fZK3BtG/6gAAAA="
+      }
+    },
+    {
+      "id": "gis-about",
+      "title": "Tentang GIS",
+      "url": "https://globalinti.com/about-us/",
+      "company": "gis",
+      "category": "profil",
+      "type": "halaman",
+      "description": "Profil PT Global Inti Sejati.",
+      "tags": [
+        "tentang",
+        "about",
+        "profil",
+        "visi misi"
+      ],
+      "departments": [
+        "sales",
+        "manajemen"
+      ],
+      "thumbnail": {
+        "file": "gis-about-bce85c70",
+        "blur": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAABQBACdASoYAA8APu1iqU2ppaOiMAgBMB2JZwDKH8ADBxwKDcKehrVFcr+AAP7l0Sos2UT1ViXy6x/w1DqPj1XckyBxuPIipzX/LC5wt5E35YJOCPdF+y49Z2fU4ntSLLiUV4r+YOhMf63qJxzdhAAA"
+      }
+    },
+    {
+      "id": "gis-services",
+      "title": "Layanan GIS",
+      "url": "https://globalinti.com/services/",
+      "company": "gis",
+      "category": "profil",
+      "type": "halaman",
+      "description": "Layanan instalasi dan servis kelistrikan heavy duty.",
+      "tags": [
+        "layanan",
+        "service",
+        "servis",
+        "instalasi",
+        "jasa"
+      ],
+      "departments": [
+        "sales",
+        "engineering"
+      ],
+      "thumbnail": {
+        "file": "gis-services-37932e87",
+        "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADwAwCdASoYAA8APu1oqk6ppiQiMAgBMB2JZwAAYcwRb6lRU67QCQxAAP7pJ53rj6/RU+t3xK95YwS8HLfgfGL9YWBHOoi85/Gco8X2bAgKXlRNWip0h5LmoBcAAA=="
+      }
+    },
+    {
+      "id": "gis-faq",
+      "title": "FAQ GIS",
+      "url": "https://globalinti.com/faq/",
+      "company": "gis",
+      "category": "bantuan",
+      "type": "halaman",
+      "description": "Pertanyaan yang sering diajukan seputar GIS.",
+      "tags": [
+        "faq",
+        "tanya jawab",
+        "pertanyaan"
+      ],
+      "departments": [
+        "sales"
+      ],
+      "thumbnail": {
+        "file": "gis-faq-a5a29cae",
+        "blur": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAABwAwCdASoYAA8APu1iqk4ppaQiMAgBMB2JYwAAW9N22hAvCoAA/eO9hxLhS2b4yGk/Ahe4tj+4Bq/7mEyiZlu3uCZTG2ArHb6eBzQrZI5i1sqcB+JxP8IRUGrpY/qOf069MIfkFnQVQsnk151HpWwoA/wAAA=="
+      }
+    },
+    {
+      "id": "lourdes-contact",
+      "title": "Kontak Lourdes",
+      "url": "https://lourdesautoparts.com/contact-us/",
+      "company": "lourdes",
+      "category": "bantuan",
+      "type": "halaman",
+      "description": "Telepon, email, jam operasional, dan form pesan Lourdes.",
+      "tags": [
+        "kontak",
+        "hubungi",
+        "telepon",
+        "email",
+        "alamat"
+      ],
+      "departments": [
+        "sales",
+        "purchasing"
+      ],
+      "thumbnail": {
+        "file": "lourdes-contact-51d21d31",
+        "blur": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAAAwBACdASoYAA8APu1iqU2ppaQiMAgBMB2JQBOkERwUQv9IWBwWyHAYljQAzfOzO20dCvsx1v7vHl8M8FdPN9KbLHEg0f+i6PP/wkjUHHKAJ7DviUP6U8JE3E+jKXA5GfHMg7qb/WzP4nfaAe+3thJ+0tHMHA5dQLgAAA=="
+      }
+    },
+    {
+      "id": "gis-contact",
+      "title": "Kontak GIS",
+      "url": "https://globalinti.com/contact-us/",
+      "company": "gis",
+      "category": "bantuan",
+      "type": "halaman",
+      "description": "Alamat, telepon, dan form kontak PT Global Inti Sejati.",
+      "tags": [
+        "kontak",
+        "hubungi",
+        "telepon",
+        "alamat",
+        "lokasi"
+      ],
+      "departments": [
+        "sales",
+        "purchasing"
+      ],
+      "thumbnail": {
+        "file": "gis-contact-fa5a0907",
+        "blur": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAQBACdASoYAA8APu1iqU2ppaOiMAgBMB2JZwBTAAgf+SWvKgbJtMsroAD+6ShV3L37DQe+s7s3ypaCXY0H6upC3DYh+JuXixP65Z1YMTF2jOqWPaL6H1XpfR0/pZuSAAA="
+      }
+    },
+    {
+      "id": "lourdes-help",
+      "title": "Help Center Lourdes",
+      "url": "https://lourdesautoparts.com/help-center/",
+      "company": "lourdes",
+      "category": "bantuan",
+      "type": "halaman",
+      "description": "Pusat bantuan pemesanan dan pengiriman.",
+      "tags": [
+        "bantuan",
+        "help",
+        "pengiriman",
+        "delivery",
+        "support"
+      ],
+      "departments": [
+        "sales"
+      ],
+      "thumbnail": {
+        "file": "lourdes-help-d1451a47",
+        "blur": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAABwBACdASoYAA8APu1orU2ppqSiMAgBMB2JQBOmUGQ/T/gPI6V3PsTfkzYyAADN87M7pE0RdlAvZ1t1XEE06+I/T0ZTkJCfNs1lLNWjk7pgnd4BwJv87yrErn8tO5ieeq4J3HSc9c1morgs3PLvYEzhVTo811yS1zm//jBkvYAAAA=="
+      }
+    },
+    {
+      "id": "lourdes-return",
+      "title": "Return & Refund",
+      "url": "https://lourdesautoparts.com/return/",
+      "company": "lourdes",
+      "category": "bantuan",
+      "type": "halaman",
+      "description": "Kebijakan retur barang dan pengembalian dana.",
+      "tags": [
+        "retur",
+        "refund",
+        "garansi",
+        "pengembalian"
+      ],
+      "departments": [
+        "sales",
+        "finance",
+        "gudang"
+      ],
+      "thumbnail": {
+        "file": "lourdes-return-568b8704",
+        "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAACwAwCdASoYAA8APu1kqk2ppaQiMAgBMB2JYwCdH8ADA0fHwEiTAADN87ppbRBtFK7Ozp2Y3oK07nGWuH67ZAhDSOcZ7Gz7Xt3fKvz1WPloBfaXahhhvkLiusUheLgA"
+      }
+    },
+    {
+      "id": "lourdes-register",
+      "title": "Daftar Akun Lourdes",
+      "url": "https://lourdesautoparts.com/page-register/",
+      "company": "lourdes",
+      "category": "akun",
+      "type": "formulir",
+      "description": "Buat akun untuk akses katalog detail dan promo.",
+      "tags": [
+        "daftar",
+        "register",
+        "sign up",
+        "akun baru"
+      ],
+      "departments": [
+        "sales"
+      ],
+      "thumbnail": {
+        "file": "lourdes-register-ca1abaa4",
+        "blur": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAABwBACdASoYAA8APu1iqU2ppaQiMAgBMB2JZACdMoR8eCm9nIxD3tCwrf/dAADN89G2nDuXvcPV7QA8OeQLc75G4aBxR/Uz8bR45EI7/2tm7zXXWPF2fqSmRnxzPROfIpb2v3bcY9yf3PeMYGX1XUSLWkHF0pDMi1AAAA=="
+      }
+    },
+    {
+      "id": "lourdes-account",
+      "title": "Akun Saya",
+      "url": "https://lourdesautoparts.com/my-account/",
+      "company": "lourdes",
+      "category": "akun",
+      "type": "halaman",
+      "description": "Masuk, lihat pesanan, dan kelola akun Lourdes.",
+      "tags": [
+        "login",
+        "masuk",
+        "sign in",
+        "pesanan",
+        "order"
+      ],
+      "departments": [
+        "sales",
+        "purchasing",
+        "finance"
+      ],
+      "thumbnail": {
+        "file": "lourdes-account-e2b069cf",
+        "blur": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAADQAwCdASoYAA8APu1kqk2ppaQiMAgBMB2JQBOja/gLFw4pVy1cyZgA8qdVSriRmnqjFQSnKatwEhFzTW8J579yoB7dEVTZR2PExwEvp639dMZ/XVOW9FK/nLej80Z+KEnCPr5ErU+ojreg7wAKX4NeCQ06RlV+/L8IdxJJeB40xAAA"
+      }
+    },
+    {
+      "id": "lourdes-cart",
+      "title": "Keranjang Belanja",
+      "url": "https://lourdesautoparts.com/cart/",
+      "company": "lourdes",
+      "category": "akun",
+      "type": "halaman",
+      "description": "Lihat produk di keranjang dan lanjut ke checkout.",
+      "tags": [
+        "keranjang",
+        "cart",
+        "checkout",
+        "bayar"
+      ],
+      "departments": [
+        "purchasing"
+      ],
+      "thumbnail": {
+        "file": "lourdes-cart-aebfcb19",
+        "blur": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAAAQBACdASoYAA8APu1krU6ppaSiMAgBMB2JQBOja/gLFw4pY1rmCf7l4ADyp1VKuBK/AF1VRZdKabfYBilw29mOB1nUqsGYUZExwEvfpBIgc/CK4ps/5rk7gCHTPv4vWbo9gNUmPK4nDFN2HvbLdmQ9elpxQmv3hzkvA8aYgAA="
+      }
+    },
+    {
+      "id": "lourdes-blog",
+      "title": "Artikel & Blog Lourdes",
+      "url": "https://lourdesautoparts.com/article-blog/",
+      "company": "lourdes",
+      "category": "artikel",
+      "type": "artikel",
+      "description": "Artikel, tips, dan berita seputar produk kelistrikan.",
+      "tags": [
+        "blog",
+        "artikel",
+        "berita",
+        "tips"
+      ],
+      "departments": [
+        "sales"
+      ],
+      "thumbnail": {
+        "file": "lourdes-blog-14635af3",
+        "blur": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAAAwBACdASoYAA8APu1iqU2ppaOiMAgBMB2JQBOkBLhXDv4uZYwj12u9bgAA/ZzMaMfiwjd0BTAPKDyhp/dW2R9dj17xAwoK+0njYt+jD5BTUispB7CUbFrqKL7nk28NpnzStRsD/F5U4C1T2PN+uMobbD5RmEdp4FQHZqz/AW84VdzxeULmMgah5sgAAA=="
+      }
+    },
+    {
+      "id": "lourdes-mining-expo",
+      "title": "Mining Expo 2024",
+      "url": "https://lourdesautoparts.com/mining-expo-2024/",
+      "company": "lourdes",
+      "category": "artikel",
+      "type": "halaman",
+      "description": "Partisipasi Lourdes di pameran Mining Indonesia Expo 2024.",
+      "tags": [
+        "event",
+        "pameran",
+        "expo",
+        "mining"
+      ],
+      "departments": [
+        "sales",
+        "manajemen"
+      ],
+      "thumbnail": {
+        "file": "lourdes-mining-expo-1a542bd6",
+        "blur": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAAAQBACdASoYAA8APu1iqU2ppaOiMAgBMB2JZACdMoABq/6qD95DcmydIAD+MpHiB60Hw7ieVXdTa549cdZkPQ7WgRUaR9QUMvDZu5J/kuleYjdGcSR494Gn8ikAlie+rS0zSwf4ppsTxbLqCvLHGOPtRECszPw9eS2MoG+XXuKyI67E8dj+lRY7HGU4QcP3ZcgFaOlS9bN5AZ9jFAAAAA=="
+      }
+    },
+    {
+      "id": "lourdes-garuda-procure-mr-po",
+      "title": "Garuda Procure (MR & PO)",
+      "url": "https://ga.lourdes.cloud",
+      "company": "lourdes",
+      "category": "utama",
+      "type": "website",
+      "description": "Sistem resmi untuk proses procurement atau pengadaan barang untuk departemen General Affair pada PT Garuda Mart Indonesia dan PT Global Inti Sejati.",
+      "tags": [
+        "Material Request",
+        "Purchase Order",
+        "General Affair"
+      ],
+      "departments": [
+        "hrga"
+      ],
+      "featured": true,
+      "internal": true,
+      "thumbnail": {
+        "file": "lourdes-garuda-procure-mr-po-c4a2e23e",
+        "blur": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAADwAwCdASoYAA8APu1iqU2ppaOiMAgBMB2JZQAAXE8Fe06KY7Z3h6gAAP7x0NXwAzduyHxhfEcGpoZqBx8MAU3+ci43VF9y7hTVAdStiheeLUE/I4fBey710fhPaymCTuCfnuoI/hEdpyQA"
+      }
+    },
+    {
+      "id": "lourdes-warehouse-management-system-wms",
+      "title": "Warehouse Management System (WMS)",
+      "url": "https://wms.lourdes.cloud",
+      "company": "lourdes",
+      "category": "utama",
+      "type": "website",
+      "description": "Sistem pengelolaan data gudang PT Garuda Mart Indonesia",
+      "tags": [
+        "Warehouse",
+        "Material Request",
+        "Purhase Order",
+        "Working Order",
+        "WMS"
+      ],
+      "departments": [
+        "gudang"
+      ],
+      "featured": true,
+      "internal": true,
+      "thumbnail": {
+        "file": "lourdes-warehouse-management-system-wms-fd81080a",
+        "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAwCdASoYAA8APu1iqU2ppaOiMAgBMB2JZQCdACHZVGV9QKkDuAAA/u6GVshf6wCsedIj2U01T/bFduy6rmQo0sifBeFmdQjPi4EzAn3LkgAA"
+      }
+    },
+    {
+      "id": "lourdes-titan-apex",
+      "title": "Titan Apex",
+      "url": "https://marketing.lourdes.cloud",
+      "company": "gmi",
+      "category": "utama",
+      "type": "website",
+      "description": "Sistem informasi untuk departmen Marketing PT Garuda Mart Indonesia",
+      "tags": [
+        "Marketing",
+        "Titan Apex"
+      ],
+      "departments": [
+        "sales"
+      ],
+      "internal": true,
+      "thumbnail": {
+        "file": "lourdes-titan-apex-e97faf24",
+        "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAwCdASoYAA8APu1iqU2ppaOiMAgBMB2JYwC/OCIfhn1eMJbi7jzwAP7kBxhbr+BBkWY/8wFRYKBIV9ElA7+dI7y+gr52MEb2AAAA"
+      }
+    }
+  ]
+}

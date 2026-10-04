@@ -1,0 +1,243 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --bg: #f4f6f9;
+  --surface: #ffffff;
+  --surface-2: #eef2f7;
+  --surface-3: #e3e9f1;
+  --border: #dfe5ee;
+  --border-strong: #c9d3e0;
+  --text: #0e1726;
+  --muted: #586579;
+  --faint: #687588;
+  --brand: #0b5a94;
+  --brand-hover: #094b7c;
+  --brand-soft: #e3effa;
+  --accent: #1e7a46;
+  --accent-soft: #e2f4e9;
+  --warn: #b45309;
+  --star: #e59a0b;
+  --ring: #0b5a9466;
+  --shadow: 0 1px 2px rgb(15 23 42 / 0.05), 0 4px 16px -6px rgb(15 23 42 / 0.1);
+  --shadow-lg: 0 2px 4px rgb(15 23 42 / 0.05), 0 18px 40px -12px rgb(15 23 42 / 0.22);
+  color-scheme: light;
+}
+
+.dark {
+  --bg: #0a0f16;
+  --surface: #111821;
+  --surface-2: #17202c;
+  --surface-3: #1f2a38;
+  --border: #212c3a;
+  --border-strong: #2f3d50;
+  --text: #e7edf5;
+  --muted: #9aa8bb;
+  --faint: #7f8ca0;
+  --brand: #5aa9e6;
+  --brand-hover: #7cbcee;
+  --brand-soft: #12304a;
+  --accent: #6fcf8e;
+  --accent-soft: #12301f;
+  --warn: #f59e0b;
+  --star: #fbbf24;
+  --ring: #5aa9e680;
+  --shadow: 0 1px 2px rgb(0 0 0 / 0.3), 0 4px 16px -6px rgb(0 0 0 / 0.5);
+  --shadow-lg: 0 2px 4px rgb(0 0 0 / 0.3), 0 20px 44px -12px rgb(0 0 0 / 0.7);
+  color-scheme: dark;
+}
+
+/* Warna aksen per perusahaan, dipakai lewat var(--c). */
+[data-company="lourdes"] { --c: #0b5a94; --c-soft: #e3effa; }
+[data-company="gmi"] { --c: #23239c; --c-soft: #e8e8fb; }
+[data-company="gis"] { --c: #22702c; --c-soft: #e3f4e5; }
+.dark [data-company="lourdes"] { --c: #5aa9e6; --c-soft: #12304a; }
+.dark [data-company="gmi"] { --c: #a3a5f7; --c-soft: #1d1e4a; }
+.dark [data-company="gis"] { --c: #7fd38a; --c-soft: #133019; }
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-surface-3: var(--surface-3);
+  --color-line: var(--border);
+  --color-line-strong: var(--border-strong);
+  --color-fg: var(--text);
+  --color-muted: var(--muted);
+  --color-faint: var(--faint);
+  --color-brand: var(--brand);
+  --color-brand-hover: var(--brand-hover);
+  --color-brand-soft: var(--brand-soft);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-star: var(--star);
+  --color-co: var(--c);
+  --color-co-soft: var(--c-soft);
+  --font-sans: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
+  --shadow-card: var(--shadow);
+  --shadow-pop: var(--shadow-lg);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-feature-settings: "ss01", "cv11";
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+::selection { background: var(--brand); color: white; }
+
+@layer base {
+  :focus-visible {
+    outline: 2px solid var(--brand);
+    outline-offset: 2px;
+  }
+}
+
+/* ——— Animasi ——— */
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+@keyframes scale-in {
+  from { opacity: 0; transform: translateY(-6px) scale(0.97); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes sheet-up { from { transform: translateY(100%); } to { transform: none; } }
+@keyframes kenburns {
+  from { transform: scale(1.04) translate3d(0, 0, 0); }
+  to { transform: scale(1.14) translate3d(-1.5%, -1%, 0); }
+}
+@keyframes pop {
+  0% { transform: scale(1); }
+  40% { transform: scale(1.35) rotate(-8deg); }
+  100% { transform: scale(1); }
+}
+@keyframes shimmer { to { background-position: -200% 0; } }
+@keyframes pulse-dot {
+  0%, 100% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent) 60%, transparent); }
+  50% { box-shadow: 0 0 0 5px transparent; }
+}
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+.animate-fade-up { animation: fade-up 0.55s cubic-bezier(0.2, 0.7, 0.2, 1) both; animation-delay: calc(var(--i, 0) * 45ms); }
+.animate-fade-in { animation: fade-in 0.4s ease both; }
+.animate-scale-in { animation: scale-in 0.18s cubic-bezier(0.2, 0.8, 0.2, 1) both; }
+.animate-sheet-up { animation: sheet-up 0.32s cubic-bezier(0.2, 0.8, 0.2, 1) both; }
+.animate-pop { animation: pop 0.38s ease; }
+.animate-pulse-dot { animation: pulse-dot 2s ease-in-out infinite; }
+.animate-float { animation: float-slow 6s ease-in-out infinite; }
+
+.skeleton {
+  background: linear-gradient(90deg, var(--surface-2) 25%, var(--surface-3) 50%, var(--surface-2) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.4s linear infinite;
+}
+
+/* Slideshow hero: crossfade + Ken Burns. */
+.slide { opacity: 0; transition: opacity 1.4s ease; }
+.slide[data-active="true"] { opacity: 1; }
+.slide[data-active="true"] img { animation: kenburns 9s ease-out both; }
+
+/* View Transitions saat filter/sort berubah. */
+::view-transition-group(*) { animation-duration: 0.32s; animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1); }
+::view-transition-old(root), ::view-transition-new(root) { animation-duration: 0.2s; }
+
+/* Kartu tautan: garis aksen perusahaan + sedikit terangkat saat hover. */
+.link-card { transition: transform 0.22s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.22s ease, border-color 0.22s ease; }
+@media (hover: hover) {
+  .link-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-lg), 0 0 0 1px color-mix(in srgb, var(--c) 35%, transparent);
+    border-color: color-mix(in srgb, var(--c) 40%, var(--border));
+  }
+  .link-card:hover .link-arrow { transform: translate(2px, -2px); color: var(--c); }
+}
+.link-arrow { transition: transform 0.2s ease, color 0.2s ease; }
+
+.scrollbar-none { scrollbar-width: none; }
+.scrollbar-none::-webkit-scrollbar { display: none; }
+
+mark { background: color-mix(in srgb, var(--star) 32%, transparent); color: inherit; border-radius: 3px; padding: 0 1px; }
+
+dialog::backdrop { background: rgb(5 10 18 / 0.55); backdrop-filter: blur(4px); animation: fade-in 0.2s ease; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Logo: hanya varian sesuai tema yang diunduh browser. */
+.logo-img { background: var(--logo-l) center / contain no-repeat; }
+.dark .logo-img { background-image: var(--logo-d); }
+
+/* ——— Latar belakang ambient: aurora + pola titik + garis "arus listrik" ——— */
+.ambient { position: fixed; inset: 0; z-index: -1; overflow: hidden; pointer-events: none; }
+.ambient-blob {
+  position: absolute;
+  border-radius: 9999px;
+  will-change: transform;
+  animation: drift var(--d, 36s) ease-in-out infinite alternate;
+}
+/* Animasi latar baru berjalan setelah halaman selesai dimuat (tidak mengganggu render awal). */
+html:not(.ready) .ambient-blob,
+html:not(.ready) .energy-line { animation-play-state: paused; }
+html:not(.ready) .energy-line { visibility: hidden; }
+
+/* Bagian di bawah layar tidak di-layout/paint sebelum mendekati viewport. */
+.lazy-section { content-visibility: auto; contain-intrinsic-size: auto 900px; }
+@keyframes drift {
+  from { transform: translate3d(0, 0, 0) scale(1); }
+  to { transform: translate3d(var(--x, 8vw), var(--y, 6vh), 0) scale(1.18); }
+}
+.dot-grid {
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(color-mix(in srgb, var(--text) 14%, transparent) 1px, transparent 1.2px);
+  background-size: 24px 24px;
+  mask-image: radial-gradient(ellipse 90% 70% at 50% 0%, #000 25%, transparent 78%);
+}
+.energy-line {
+  position: absolute;
+  left: 0;
+  height: 1px;
+  width: 38vw;
+  background: linear-gradient(90deg, transparent, var(--line-color, var(--brand)), transparent);
+  opacity: 0.45;
+  will-change: transform;
+  animation: sweep var(--d, 14s) linear infinite;
+  animation-delay: var(--delay, 0s);
+  transform: translateX(-40vw);
+}
+.dark .energy-line { opacity: 0.6; }
+@keyframes sweep {
+  from { transform: translateX(-40vw); }
+  to { transform: translateX(140vw); }
+}
+
+/* Pola kisi halus untuk sampul thumbnail otomatis */
+.thumb-grid {
+  background-image:
+    linear-gradient(color-mix(in srgb, var(--c) 14%, transparent) 1px, transparent 1px),
+    linear-gradient(90deg, color-mix(in srgb, var(--c) 14%, transparent) 1px, transparent 1px);
+  background-size: 18px 18px;
+  mask-image: radial-gradient(circle at 50% 50%, #000 15%, transparent 75%);
+}
+
+@keyframes sheet-left { from { transform: translateX(100%); } to { transform: none; } }

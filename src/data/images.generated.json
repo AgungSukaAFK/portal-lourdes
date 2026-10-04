@@ -1,0 +1,103 @@
+{
+  "slides": [
+    {
+      "name": "slide",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        640,
+        1280
+      ],
+      "blur": "data:image/webp;base64,UklGRswAAABXRUJQVlA4IMAAAADwBACdASoYABIAPu1ur1IppiQiqAgBMB2JYwDKAAiAHAZpsFwR3P7iQUc/cQUvawAA+DPJJqvltPpfHvp1Ox7hHtE5iOsT9W7w2lQ/a1TzIDcw+OEyI4Q7eoMjACGw/TG5iRLStsZl3bO4iIgfXsb52xEXa2iBxTiQN5S/D4VxAPT29YA1NTuCKmUCc8UbFK3o49xAMTOc6k3MoXgdeGCKTlXck11CJ5My9s0qYdv84/hBXflZyQCJLGQ9IcDOQAA="
+    },
+    {
+      "name": "slide2",
+      "width": 1920,
+      "height": 1080,
+      "widths": [
+        640,
+        1280,
+        1920
+      ],
+      "blur": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAABQBACdASoYAA4APu1iqU2ppaOiMAgBMB2JbACdAy6Bz2ZV5fmo2gk9Mr+AAP6UHHpdlb+wT/q5WzNNHvpWWhMYtm9IH6FoUfEf/Fok+zIhA1He0+LfIjD8tP8D/U3LunRfUJhfw8rX4Fv8M2fCIOkoULbf+1gp2jIdGDVKvLUqvP79XaYPMvsucei/YgAA"
+    },
+    {
+      "name": "slide3",
+      "width": 1920,
+      "height": 1080,
+      "widths": [
+        640,
+        1280,
+        1920
+      ],
+      "blur": "data:image/webp;base64,UklGRroAAABXRUJQVlA4IK4AAACwBACdASoYAA4APu1iqU2ppaOiMAgBMB2JaACdEf/i2LHZov2cqCiibZzzwiBAAPkOTakudf86pwCWcJcuboLQmEQ7krQPvGuYvT8n7DAqZD51r6021dNhOIrQgX8GAFFJnxnAzVgogYucJ/Qr+M/zj25/XTp7n5Xc19oFVWtA8in3xGUZY/rin+9V1i/ex/j7SXZEMdwq/MU86ZkpZY4AYgCz/y07YPTUJewAAAA="
+    },
+    {
+      "name": "slide4",
+      "width": 1600,
+      "height": 1201,
+      "widths": [
+        640,
+        1280
+      ],
+      "blur": "data:image/webp;base64,UklGRsQAAABXRUJQVlA4ILgAAAAwBQCdASoYABIAPu1qrFEppaQiqAqpMB2JbACw7BCW+7pGNAKUSXIDBg7Ed3vnsARE4AD+4NpSB1ADWxsYMVMhrOnclAB2+vUSHDf38dEzboNLlevQkwkw+7ZluZbrGFs8uM3QsIWeiiVVDZbpSOK3TPOx5RK6CBUJGaqMOmWSOTUUtvmtKbOqjeXEx2A6zTdGvJLtMoVP0DTpoI3ScLJUeR9/il+vXmgttJMwnkDbpaAh5F+jaAAA"
+    },
+    {
+      "name": "slide5",
+      "width": 1280,
+      "height": 960,
+      "widths": [
+        640,
+        1280
+      ],
+      "blur": "data:image/webp;base64,UklGRgQBAABXRUJQVlA4IPgAAAAwBQCdASoYABIAPu1qsFAppaUiqAqpMB2JbACdMwBluglD9HEFs4w+yyVLOL4D442UAAD+1zXdUXglzWru5p1KOX9zQRj2mnDxpXC/Ljr9LWYco0iaUVEwRCE7PEXxYo48636uEC7CKvknrvCvArZzyLpu8xP/kdw9lBat44dPr9uy8A4SVufBGAr2z7byhWj6tS0SQvQLoweerGbo1wgGQ7yhM6AqgFhRSqngRCEKumgbho4vhquOOjYJF/gQfhuMguX6VhIUzj89ygouFr92+rk2hC+Lpvvkp41UemdSASGmIb8i7PFxAIPLFnbIKee7eNvffwAAAA=="
+    },
+    {
+      "name": "slide6",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        640,
+        1280
+      ],
+      "blur": "data:image/webp;base64,UklGRroAAABXRUJQVlA4IK4AAADwBACdASoYABIAPu1qqVAppaOiqA1RMB2JYwDA3BEYr0hS0pJ/aHig8f8zrPbg4wAA/siBu90pf9J7bVZXdfZ6SEAIpQkJtb01n38yFHXIYCuikNtsQHuDUGMw0jY9V6hqF2CgozfaaRWzVoq+kYjy4SwVOiLJ83E7xyYZo2iqELQ05sp4Ftt06v9ovAeklxw8Yy6kK5vGeheELVelttxSufJNAAlt/k4eqZVMQAA="
+    }
+  ],
+  "logos": {
+    "lourdes-logo": {
+      "widths": [
+        180,
+        360
+      ],
+      "ratio": 2.6122
+    },
+    "gmi-landscape": {
+      "widths": [
+        300,
+        600
+      ],
+      "ratio": 7.4189
+    },
+    "gis-landscape": {
+      "widths": [
+        300,
+        600
+      ],
+      "ratio": 4.1379
+    },
+    "gmi-logo": {
+      "widths": [
+        64,
+        150
+      ],
+      "ratio": 1
+    },
+    "gis-logo": {
+      "widths": [
+        64,
+        128
+      ],
+      "ratio": 0.8782
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "portal-lourdes",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "images": "node scripts/optimize-images.mjs",
+    "snapshot": "node scripts/fetch-safety-snapshot.mjs",
+    "prebuild": "npm run validate && npm run images && npm run snapshot",
+    "build": "next build",
+    "start": "npx serve out",
+    "lint": "tsc --noEmit",
+    "admin:password": "node scripts/set-admin-password.mjs",
+    "validate": "tsx scripts/validate-content.ts"
+  },
+  "dependencies": {
+    "fuse.js": "^7.5.0",
+    "lucide-react": "^1.51.0",
+    "next": "^16.3.8",
+    "next-themes": "^0.4.6",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^26.6.4",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "playwright-core": "1.63",
+    "postcss": "^8.5.28",
+    "sharp": "^0.35.5",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "zod": "^4.6.5"
+  }
+}
