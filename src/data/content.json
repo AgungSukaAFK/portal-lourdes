@@ -2147,6 +2147,80 @@
         "file": "lourdes-titan-apex-e97faf24",
         "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAwCdASoYAA8APu1iqU2ppaOiMAgBMB2JYwC/OCIfhn1eMJbi7jzwAP7kBxhbr+BBkWY/8wFRYKBIV9ElA7+dI7y+gr52MEb2AAAA"
       }
+    },
+    {
+      "id": "lourdes-cloud",
+      "title": "Lourdes Autoparts (lourdes.cloud)",
+      "url": "https://lourdes.cloud",
+      "company": "lourdes",
+      "category": "utama",
+      "type": "website",
+      "description": "Website Lourdes Autoparts: suku cadang kelistrikan otomotif & alat berat untuk pertambangan, kehutanan, serta migas.",
+      "tags": [
+        "lourdes",
+        "lourdes.cloud",
+        "website",
+        "suku cadang",
+        "electrical spare parts"
+      ],
+      "departments": [
+        "manajemen",
+        "sales"
+      ],
+      "thumbnail": {
+        "file": "lourdes-cloud-91226e7c",
+        "blur": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAADwAwCdASoYAA8APu1iqk4ppaQiMAgBMB2JYwCsACHfUbVikTFOrpywAP4nvR2jRiXiBlLW0LRG0CMuUZ+9+rL2w44ACvN9PG8K6Z6TRpTPBNbhC35AmIbcxwEKsLsJbUs0odQglp9HtsAA"
+      }
+    },
+    {
+      "id": "lourdes-designdesk",
+      "title": "DesignDesk",
+      "url": "https://design.lourdes.cloud",
+      "company": "lourdes",
+      "category": "karyawan",
+      "type": "website",
+      "description": "Aplikasi helpdesk & manajemen desain terpadu untuk mengajukan dan memantau permintaan desain.",
+      "tags": [
+        "DesignDesk",
+        "desain",
+        "helpdesk",
+        "request desain",
+        "design"
+      ],
+      "departments": [
+        "sales",
+        "manajemen"
+      ],
+      "internal": true,
+      "thumbnail": {
+        "file": "lourdes-designdesk-21c9fc56",
+        "blur": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAABQBACdASoYAA8APu1iqk4ppaQiMAgBMB2JZwAD4zIOGI67uSZG2lSYnU0gAP7x1cHMbBBLE7nYsno2yP0mx8zPr7K+SIzr8TJnDA7G0Nj/gCbzDqVnP1wv7PPXVHzTL0ET9xy/9+LJbW8isLPGN2azhg1m1grOIvyWNl7x5C5eYh2IQAA="
+      }
+    },
+    {
+      "id": "lourdes-ticketing-it",
+      "title": "Ticketing IT",
+      "url": "https://itlourdes.my.id",
+      "company": "lourdes",
+      "category": "karyawan",
+      "type": "website",
+      "description": "Sistem tiket untuk melaporkan kendala dan mengajukan permintaan bantuan ke tim IT.",
+      "tags": [
+        "IT",
+        "ticketing",
+        "tiket",
+        "helpdesk",
+        "support",
+        "itlourdes"
+      ],
+      "departments": [
+        "it"
+      ],
+      "internal": true,
+      "thumbnail": {
+        "file": "lourdes-ticketing-it-7a4ee32b",
+        "blur": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAABQBACdASoYAA8APu1iqk2ppaQiMAgBMB2JZQDA3Yua32PYlCQZgu764QAAAP7zbJhFP139/Qfr5ldLf56TziO9xt9uEG11cN5/uY07BMKYCguLohOZvFOVL0teVlz4Fzkh75TXn+lsG8yAY3Gi6w31nObT/SGsajCE+i3HiSLm1MAA"
+      }
     }
   ]
 }
