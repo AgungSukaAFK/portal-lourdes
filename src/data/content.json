@@ -6,6 +6,7 @@
     "popular": [
       "gis-absensi-toolbox",
       "gis-safety-topic",
+      "gmi-safety-topic",
       "lourdes-products",
       "gis-kepuasan-it",
       "gis-golden-rules"
@@ -140,7 +141,7 @@
       "shortName": "GMI",
       "legalName": "PT Garuda Mart Indonesia",
       "tagline": "Automotive Electrical Product and Service Provider",
-      "description": "Distributor resmi produk Lourdes untuk kelistrikan otomotif — penyedia produk dan layanan kelistrikan kendaraan.",
+      "description": "Penyedia produk dan layanan kelistrikan otomotif sejak 2009 untuk kontraktor tambang, dealer & rental alat berat, hingga migas. Distributor resmi Lourdes dengan site support di berbagai area tambang Indonesia.",
       "website": "https://garudamart.com",
       "logo": {
         "landscape": "gmi-landscape",
@@ -154,9 +155,9 @@
       "hours": "Senin – Jumat, 08.00 – 17.00",
       "mapsQuery": "Sakura Regency Jatiasih Bekasi",
       "highlights": [
-        "Distributor Lourdes",
-        "Kelistrikan otomotif",
-        "Jatiasih, Bekasi"
+        "Sejak 2009",
+        "ISO 9001 & 45001",
+        "Site support tambang"
       ],
       "slide": "slide5"
     },
@@ -231,7 +232,748 @@
         "manajemen",
         "sales"
       ],
-      "featured": true
+      "featured": true,
+      "thumbnail": {
+        "file": "gmi-home-81c152ad",
+        "blur": "data:image/webp;base64,UklGRrwAAABXRUJQVlA4ILAAAACwBACdASoYAA8APu1iqU2ppaOiMAgBMB2JZgC7MoMlsn/UoAV6BrNjNrPY0zYAAOcug//Jw2I4k6GN2UO0MV/c8e0GBxuCnjenqMbEvfOLe46i1rJP9SZBGtdpTyjDn0mnS0sNvGzxBONHRExEDIjJmJWjae8AJZVQDabdTrWjJQIubWUtAa8sXMoBOPANEHtWHIVgwudarF1lV8roRQiVlCOLGBkI1oeOLBJMqbYAAA=="
+      }
+    },
+    {
+      "id": "gmi-safety-topic",
+      "title": "Safety Topic Harian GMI",
+      "url": "https://garudamart.com/safety-topic/",
+      "company": "gmi",
+      "category": "k3",
+      "type": "halaman",
+      "description": "Materi K3 harian GMI untuk safety talk dan toolbox meeting.",
+      "tags": [
+        "k3",
+        "safety talk",
+        "hse",
+        "keselamatan",
+        "kesehatan",
+        "toolbox"
+      ],
+      "departments": [
+        "hse",
+        "operasional",
+        "engineering",
+        "gudang"
+      ],
+      "featured": true,
+      "internal": true,
+      "thumbnail": {
+        "file": "gmi-safety-topic-eeb00ce6",
+        "blur": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAACwAwCdASoYAA8APu1iqU2ppaOiMAgBMB2JYwAAW9f5QKaXitlaoAD+J5+jOvxp/TJS/PjVL2T2Jw9RCnbufq2haw5jo2LXW5v8JvijYtQgkeDXnv7yW4y+crTCBgmjoMCK80SPY8G4M7cJs+pyumVuQV/0+nrazqvr0qqUaaCgeEOAAAA="
+      }
+    },
+    {
+      "id": "gmi-policy-documents",
+      "title": "Dokumen Kebijakan GMI",
+      "url": "https://garudamart.com/policy-documents/",
+      "company": "gmi",
+      "category": "k3",
+      "type": "halaman",
+      "description": "Kumpulan dokumen kebijakan resmi PT Garuda Mart Indonesia.",
+      "tags": [
+        "kebijakan",
+        "policy",
+        "dokumen",
+        "sop",
+        "tata kelola"
+      ],
+      "departments": [
+        "hse",
+        "hrga",
+        "manajemen"
+      ],
+      "internal": true,
+      "thumbnail": {
+        "file": "gmi-policy-documents-252537f1",
+        "blur": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAACwAwCdASoYAA8APu1iqU2ppaQiMAgBMB2JQAALeFRdmRsgfCat4AD+J5/Rpvhh2ImuhJEAjTg9677WUJnPd3XPouSx9yKJvijYtwthPUeWY2XhugTW0BcMYcFzoEfMWoy2rjz+ZhS+Q+uNsY4AHZDXwb59dOEAAAA="
+      }
+    },
+    {
+      "id": "gmi-sistem-manajemen-terintegrasi",
+      "title": "Sistem Manajemen Terintegrasi",
+      "url": "https://garudamart.com/sistem-manajemen-terintegrasi/",
+      "company": "gmi",
+      "category": "k3",
+      "type": "artikel",
+      "description": "Kebijakan sistem manajemen mutu dan K3 terintegrasi GMI.",
+      "tags": [
+        "smt",
+        "iso",
+        "mutu",
+        "k3",
+        "kebijakan",
+        "manajemen"
+      ],
+      "departments": [
+        "hse",
+        "hrga",
+        "manajemen"
+      ],
+      "internal": true,
+      "thumbnail": {
+        "file": "gmi-sistem-manajemen-terintegrasi-c602494a",
+        "blur": "data:image/webp;base64,UklGRsIAAABXRUJQVlA4ILYAAABQBACdASoYAA8APu1iqU2ppaOiMAgBMB2JYgBTBA/4Dxvqbroe78h4cesAAP1S95Tf4xg1qk8frjWRD/V6+ubpnypvjqIPWTG1uK7D1XdrhFlSYlj049nHDq8Qg0gc1/yu2SxAUZRWDYkirLn/vtGQX+DWVRZzd3GjlhopszEYBiiWhN/3H8UfcVDfkpMca8z56Af8ryhPHc9uSata3JKG4f2S4hJjwyE/qjY21Xo8xU2tBSngAA=="
+      }
+    },
+    {
+      "id": "gmi-kebijakan-kplh",
+      "title": "Kebijakan KPLH",
+      "url": "https://garudamart.com/kebijakan-kplh-garuda-mart-indonesia/",
+      "company": "gmi",
+      "category": "k3",
+      "type": "artikel",
+      "description": "Kebijakan keselamatan, kesehatan kerja, dan perlindungan lingkungan hidup GMI.",
+      "tags": [
+        "kplh",
+        "k3l",
+        "lingkungan",
+        "kebijakan",
+        "keselamatan"
+      ],
+      "departments": [
+        "hse",
+        "hrga",
+        "manajemen"
+      ],
+      "internal": true,
+      "thumbnail": {
+        "file": "gmi-kebijakan-kplh-5492b588",
+        "blur": "data:image/webp;base64,UklGRrwAAABXRUJQVlA4ILAAAABQBACdASoYAA8APu1iqU2ppaOiMAgBMB2JYgBTBA/4DxvqZth2qNNPCkuAAP1S95Tf4xg1qk8frjWRD/V6+ubpnypvjqIPWTG/MaBV68NYjDfZNS1WR1fY6goliAoyisGxJFWXP/faMgv8Gsqizm7uNHLDRUMIcOf83wmYPp4SnwbRvfoXejxyEt7oEuxe4ObUvif71NxgSUNw/slxCTHhkJ/VGxtqvR5iptaClPAAAA=="
+      }
+    },
+    {
+      "id": "gmi-kebijakan-narkoba",
+      "title": "Kebijakan Narkoba GMI",
+      "url": "https://garudamart.com/kebijakan-narkoba/",
+      "company": "gmi",
+      "category": "k3",
+      "type": "artikel",
+      "description": "Kebijakan larangan narkoba dan minuman keras di lingkungan kerja GMI.",
+      "tags": [
+        "kebijakan",
+        "narkoba",
+        "miras",
+        "alkohol",
+        "d&a"
+      ],
+      "departments": [
+        "hse",
+        "hrga",
+        "manajemen"
+      ],
+      "internal": true,
+      "thumbnail": {
+        "file": "gmi-kebijakan-narkoba-3fcc3deb",
+        "blur": "data:image/webp;base64,UklGRr4AAABXRUJQVlA4ILIAAABQBACdASoYAA8APu1iqU2ppaOiMAgBMB2JYgBTBA/4DxvpdFQCO9jVufgAAP1S95Tf4xg1qk8frjWRD/V6+ubpnypvjqIRcD8L9fOYMZmHv92x1p3B8WyXNLgKxAUZRWDYkirLn/vtGQX+DWVRZzd3GjlhoqGEOHP+b4TMF75y9PWNDts9bWwv/v+AICgUBsBbuYEChjOIzXmMAE7+Q4NDmddNB8RZevymKoLrtaZdIAAA"
+      }
+    },
+    {
+      "id": "gmi-kepuasan-it",
+      "title": "Survei Kepuasan User IT GMI",
+      "url": "https://garudamart.com/kepuasan-user-it/",
+      "company": "gmi",
+      "category": "karyawan",
+      "type": "formulir",
+      "description": "Kuesioner evaluasi kinerja tim IT; tombol absen muncul setelah timer selesai.",
+      "tags": [
+        "it",
+        "survei",
+        "kuesioner",
+        "helpdesk",
+        "feedback",
+        "absen"
+      ],
+      "departments": [
+        "it"
+      ],
+      "featured": true,
+      "internal": true,
+      "thumbnail": {
+        "file": "gmi-kepuasan-it-b85191cb",
+        "blur": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAABwAwCdASoYAA8APu1kqU4ppaOiMAgBMB2JYwAAW7WFpqf3ZAAA3kN0v/sHAiOmLjQDC7lCn94MPciib4o2LImnCzNb17sK/768BeglgRlg79bRRCYzE/o9K4uRwklQAAA="
+      }
+    },
+    {
+      "id": "gmi-evaluasi-ga",
+      "title": "Evaluasi GA & Saran",
+      "url": "https://garudamart.com/evaluasi-ga-saran/",
+      "company": "gmi",
+      "category": "karyawan",
+      "type": "formulir",
+      "description": "Kirim saran & masukan per departemen dan penilaian K3 5R.",
+      "tags": [
+        "ga",
+        "general affair",
+        "saran",
+        "masukan",
+        "5r",
+        "housekeeping"
+      ],
+      "departments": [
+        "hrga",
+        "hse",
+        "operasional",
+        "gudang"
+      ],
+      "internal": true,
+      "thumbnail": {
+        "file": "gmi-evaluasi-ga-61780331",
+        "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADQAwCdASoYAA8APu1kq04ppaQiMAgBMB2JbAAAXECH7sHZn6TbKrQA/vN++f/ndc9OcSqqygSN0NtCCOK841NDAqfWTf/GX4m9yi1/npp548EnBQbIvUAA"
+      }
+    },
+    {
+      "id": "gmi-form-testimoni",
+      "title": "Form Testimoni GMI",
+      "url": "https://garudamart.com/form-testimoni/",
+      "company": "gmi",
+      "category": "karyawan",
+      "type": "formulir",
+      "description": "Kirim testimoni pelanggan atas pekerjaan instalasi dan servis GMI.",
+      "tags": [
+        "testimoni",
+        "ulasan",
+        "review",
+        "pelanggan",
+        "rating"
+      ],
+      "departments": [
+        "sales",
+        "engineering"
+      ],
+      "internal": true,
+      "thumbnail": {
+        "file": "gmi-form-testimoni-c0d0264f",
+        "blur": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAAAQBACdASoYAA8APu1iqU2ppaOiMAgBMB2JQAB8h8y/+wv6yMbj8LRvUAD8j7otr/ztdMiG8/xxLVtjZyQNzF2pxBEWdNN7zaT/EA8UhQRX/3riYMdmopuwzKNrFKh175YgJ9QdALrYNvmQQtpCUjyBBuTsxggPsI1IKkkGdAAAAA=="
+      }
+    },
+    {
+      "id": "gmi-logo",
+      "title": "Logo Garudamart",
+      "url": "https://garudamart.com/logo/",
+      "company": "gmi",
+      "category": "karyawan",
+      "type": "halaman",
+      "description": "Unduh logo resmi GMI versi RGB dan CMYK (landscape, square, icon).",
+      "tags": [
+        "logo",
+        "brand",
+        "download",
+        "desain",
+        "rgb",
+        "cmyk"
+      ],
+      "departments": [
+        "sales",
+        "manajemen"
+      ],
+      "internal": true,
+      "thumbnail": {
+        "file": "gmi-logo-60a0b4fd",
+        "blur": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAACwAwCdASoYAA8APu1iqk2ppaQiMAgBMB2JQBOgBDlDDC4dDvj+AAD+J5/RpvoZg0PXsmlM3WiFarDL35Fte1d4uzM2NZcfJkdHlcDGEymOy+ALIQkM6HMquwr/vrwF6BwY9nV6eAYm/OCcpyovNF/Rb7KPbUGJLjwXAHYQeV0y3TsC5wiGdHHmEVwAAA=="
+      }
+    },
+    {
+      "id": "gmi-about",
+      "title": "Tentang GMI",
+      "url": "https://garudamart.com/about-us/",
+      "company": "gmi",
+      "category": "profil",
+      "type": "halaman",
+      "description": "Profil PT Garuda Mart Indonesia, penyedia produk & layanan kelistrikan otomotif sejak 2009.",
+      "tags": [
+        "tentang",
+        "about",
+        "profil",
+        "company overview"
+      ],
+      "departments": [
+        "sales",
+        "manajemen"
+      ],
+      "thumbnail": {
+        "file": "gmi-about-9b48f9e1",
+        "blur": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAAAQBACdASoYAA8APu1iqU2ppaQiMAgBMB2JYgCdACHiFOiDN+jZueeVcAD+J5/Rpvp7/6nMHoi60EGTsR03X8eZ3Gh9kFg1iiK1TN985I7nq4Cb4o2LboVqv5dM8sx8aNnvnNxmR5MJJWU5/R9G2BrSx7zT15eIbSRrfxn05WayCQBDT1R/XTLkrVdXkp9q+tngPCD+xGZqmwAA"
+      }
+    },
+    {
+      "id": "gmi-vision-mission",
+      "title": "Visi & Misi GMI",
+      "url": "https://garudamart.com/vision-n-mission/",
+      "company": "gmi",
+      "category": "profil",
+      "type": "halaman",
+      "description": "Visi, misi, dan rencana strategis perusahaan.",
+      "tags": [
+        "visi",
+        "misi",
+        "strategi",
+        "nilai"
+      ],
+      "departments": [
+        "manajemen",
+        "hrga"
+      ],
+      "thumbnail": {
+        "file": "gmi-vision-mission-851a8c62",
+        "blur": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAAAQBACdASoYAA8APu1iqU2ppaQiMAgBMB2JQBOgBDxBt9VV/X2aKOKkAAD+J5/RpvoZg0PXsmmW4wehXPdDaeqO1lDlZhWGL/enHiDgQBEIxOCdSQdYWBggTusM0xeSl4W9HRc2lcoTPjDwACir1IsYSqKxrPuQ5xeV0y3TsC5whPjFsTxVKAAA"
+      }
+    },
+    {
+      "id": "gmi-legality",
+      "title": "Legalitas GMI",
+      "url": "https://garudamart.com/legality/",
+      "company": "gmi",
+      "category": "profil",
+      "type": "halaman",
+      "description": "Akta pendirian dan dokumen legalitas perusahaan.",
+      "tags": [
+        "legalitas",
+        "akta",
+        "nib",
+        "npwp",
+        "izin"
+      ],
+      "departments": [
+        "finance",
+        "purchasing",
+        "manajemen"
+      ],
+      "thumbnail": {
+        "file": "gmi-legality-7089f3a2",
+        "blur": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAADQAwCdASoYAA8APu1kqU2ppaOiMAgBMB2JQBOgBDxBRF8Z11jq4TYA/ief0ab6GYND17JplxX9UWiHM3R5QxjYNv9h/P/KeAsCIGwcCAIhGJwTqSDrCwMECd1hmmLyUvC3o6LmjpqDzJxqtJZ5dhKLmh4tc6/OM2z7DVi1at+23AyCfyt9DsIPK6Zbp2BdL4AkPQl9NMcHUAAA"
+      }
+    },
+    {
+      "id": "gmi-certification",
+      "title": "Sertifikasi ISO 9001 & 45001",
+      "url": "https://garudamart.com/certification-iso-9001-45001/",
+      "company": "gmi",
+      "category": "profil",
+      "type": "halaman",
+      "description": "Sertifikat SNI ISO 9001:2015 (mutu) dan SNI ISO 45001:2018 (K3).",
+      "tags": [
+        "iso",
+        "sertifikat",
+        "9001",
+        "45001",
+        "sertifikasi"
+      ],
+      "departments": [
+        "hse",
+        "sales",
+        "manajemen"
+      ],
+      "thumbnail": {
+        "file": "gmi-certification-2b3edac4",
+        "blur": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAADQAwCdASoYAA8APu1iqU2ppaOiMAgBMB2JQBOgBDxB00w6CyMYGOAA/ief0ab6GYND17JpluMHoVz3PoXbnz1szv2zjm7xxWSxDbQE3xRsW3QrVftHM1hb7hnQJraAuGMQnKg+TwrucjTtiZDS8/j1CJnFVeEeLux8G+lKNK+SAe6H8MwiuAAA"
+      }
+    },
+    {
+      "id": "gmi-company-award",
+      "title": "Penghargaan GMI",
+      "url": "https://garudamart.com/company-award/",
+      "company": "gmi",
+      "category": "profil",
+      "type": "halaman",
+      "description": "Penghargaan dari mitra kerja, mis. Warehouse Subkontraktor Terbaik dan PJO Terbaik.",
+      "tags": [
+        "award",
+        "penghargaan",
+        "prestasi",
+        "mitra kerja terbaik"
+      ],
+      "departments": [
+        "sales",
+        "manajemen"
+      ],
+      "thumbnail": {
+        "file": "gmi-company-award-d13cb493",
+        "blur": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAADwAwCdASoYAA8APu1iqU2ppaOiMAgBMB2JYgCdACHiFObmLcAhNFRYAP4nn9Gm+hmDQ9eyaZcV9kFOvHxddizd0qcQiR+/jnu1Cf14hWOFLyet9yN7DWSuAoMZGxbdCtV+0czWFvuGdAmtoC4YxCcqJpOfrDNawqSQhBYUaTXpoLeQBaOhORVndj4N9KUZiUTKGQtE3YjAReGAAAA="
+      }
+    },
+    {
+      "id": "gmi-work-experience",
+      "title": "Pengalaman Kerja GMI",
+      "url": "https://garudamart.com/work-experience/",
+      "company": "gmi",
+      "category": "profil",
+      "type": "halaman",
+      "description": "Lini bisnis dan pengalaman proyek GMI di berbagai site tambang.",
+      "tags": [
+        "pengalaman",
+        "portofolio",
+        "proyek",
+        "site",
+        "referensi"
+      ],
+      "departments": [
+        "sales",
+        "manajemen"
+      ],
+      "thumbnail": {
+        "file": "gmi-work-experience-d1dc24b8",
+        "blur": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAAAQBACdASoYAA8APu1iqU2ppaOiMAgBMB2JQBOgVf4bQdk1wfROUSiBAAD+J5/SP/BEGxY/X0y3GD0hy3b7biDiCwjd0Jrk/LJyZtvUMyeVwMYTKY7L4AshCzyzHxsrlVvb970TeQ2QWzIZ5To22XCIajfzG/W+N9ZHXTLkrVdXD1Hn00xwdQAA"
+      }
+    },
+    {
+      "id": "gmi-products",
+      "title": "Produk GMI",
+      "url": "https://garudamart.com/products/",
+      "company": "gmi",
+      "category": "produk",
+      "type": "katalog",
+      "description": "Katalog produk kelistrikan otomotif yang dijual GMI.",
+      "tags": [
+        "produk",
+        "katalog",
+        "kelistrikan",
+        "lampu",
+        "kabel"
+      ],
+      "departments": [
+        "sales",
+        "purchasing",
+        "gudang",
+        "engineering"
+      ],
+      "thumbnail": {
+        "file": "gmi-products-1de797e5",
+        "blur": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAADwAwCdASoYAA8APu1iqU2ppaOiMAgBMB2JQAO07AxeH+xBj/IYascgAP4nn9Gm+BtgC02dLgZq2Pq2bf/L0HlmLMEpNvZ+0BXUFEv0rhlNWmI9FJgLH52YYSx1tr2cBX9yKIiarK2muesYhR/YtK7cTf3Nfxjh2f3ufnRQ/ms76vxcsuheoZ3xERK6LrDJdudBhLmwBKM/3PIrgAA="
+      }
+    },
+    {
+      "id": "gmi-services",
+      "title": "Layanan GMI",
+      "url": "https://garudamart.com/services/",
+      "company": "gmi",
+      "category": "produk",
+      "type": "halaman",
+      "description": "Daftar layanan instalasi, perawatan, dan perbaikan dari GMI.",
+      "tags": [
+        "layanan",
+        "service",
+        "servis",
+        "instalasi",
+        "jasa"
+      ],
+      "departments": [
+        "sales",
+        "engineering"
+      ],
+      "thumbnail": {
+        "file": "gmi-services-580018fa",
+        "blur": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAADwAwCdASoYAA8APu1iqU2ppaQiMAgBMB2JYwBVI4ecOXn4gZBa73wwAP4nn9Gm9/0EayIznkIfqMlvJvdWn0B+CtMr7TXzGDWwwzc0c6dYWPyuVW9v3vRN5DQKmhf2IQhygGKl9Gd6kWmE6US6IEemjPpXFRvpJMSjCABYwAA="
+      }
+    },
+    {
+      "id": "gmi-ac-maintenance",
+      "title": "Kontrak Perawatan AC",
+      "url": "https://garudamart.com/air-conditioning-maintenance-contract-service/",
+      "company": "gmi",
+      "category": "produk",
+      "type": "halaman",
+      "description": "Layanan kontrak perawatan AC unit alat berat dan kendaraan.",
+      "tags": [
+        "ac",
+        "air conditioning",
+        "perawatan",
+        "maintenance",
+        "kontrak"
+      ],
+      "departments": [
+        "sales",
+        "engineering"
+      ],
+      "thumbnail": {
+        "file": "gmi-ac-maintenance-532e881e",
+        "blur": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAAAQBACdASoYAA8APu1iqU2ppaOiMAgBMB2JZACdEf/gPH7kioYto42RQAD+J5/RpvoZg0PXsmlM1xY4z0H1EcXyZtizd1af+7mBvecBK4watHsP0LRyuJoKbyyoVqv2jmawt9wzoE1tAXDGITlPkFbwuOWs2AWoaGGOy7/RgOlaa9mqB8/X7+Jgd3j+kaN7Pmj1K1tp6xOM+rS9QurvAPB9TUkAAA=="
+      }
+    },
+    {
+      "id": "gmi-ac-installation",
+      "title": "Instalasi & Penjualan AC",
+      "url": "https://garudamart.com/air-conditioning-installation-product/",
+      "company": "gmi",
+      "category": "produk",
+      "type": "halaman",
+      "description": "Instalasi, penjualan, dan troubleshooting sistem AC kendaraan.",
+      "tags": [
+        "ac",
+        "air conditioning",
+        "instalasi",
+        "troubleshooting"
+      ],
+      "departments": [
+        "sales",
+        "engineering"
+      ],
+      "thumbnail": {
+        "file": "gmi-ac-installation-3be36192",
+        "blur": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAACwAwCdASoYAA8APu1iqU2ppaQiMAgBMB2JYgCdACHUTy++zP2jEAD+J5/RpvoZg0PXsmlM1xY4z0H0iQ0Ldx/Pi/AC26GTXJFO2jB6uRiE92RTwcCAIhGJwTqSDrCwMECd1hmmLyUvC3o6LmEk5cXrE4Lh+u8+7VZZAlEq1F8ccNIDBs6OkfrUg8Xdj4N9KUaV8pMFLrWMdx20AAA="
+      }
+    },
+    {
+      "id": "gmi-auto-electrical",
+      "title": "Auto Electrical Improvement",
+      "url": "https://garudamart.com/auto-electrical-improvement-program/",
+      "company": "gmi",
+      "category": "produk",
+      "type": "halaman",
+      "description": "Program dan produk peningkatan sistem kelistrikan unit.",
+      "tags": [
+        "auto electrical",
+        "kelistrikan",
+        "improvement",
+        "upgrade"
+      ],
+      "departments": [
+        "sales",
+        "engineering"
+      ],
+      "thumbnail": {
+        "file": "gmi-auto-electrical-e17e656a",
+        "blur": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAAAQBACdASoYAA8APu1iqk2ppaQiMAgBMB2JYgCdAq/w2c3gmyl5KBqfAAD+J5/SP/BEGxY/X0biqYs6MJGHvgO6JHglSJt4v9rJTGYfee8mrE7aAm+KNi26Far9q1r3f50gwmGxGLRyQ9wQX2ownkcn5ipGhoK7xQaDYr/bSlajDpTI/H1VyzS+wQB/K/WR10y5K1XV5F5fwhZPjFsTxb6LawAAAA=="
+      }
+    },
+    {
+      "id": "gmi-wiring-harness",
+      "title": "Wiring Harness",
+      "url": "https://garudamart.com/wiring-harness-recondition-manufacturing/",
+      "company": "gmi",
+      "category": "produk",
+      "type": "halaman",
+      "description": "Rekondisi dan pembuatan wiring harness.",
+      "tags": [
+        "wiring",
+        "harness",
+        "kabel",
+        "rekondisi",
+        "manufaktur"
+      ],
+      "departments": [
+        "sales",
+        "engineering"
+      ],
+      "thumbnail": {
+        "file": "gmi-wiring-harness-536bd465",
+        "blur": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4IKAAAACwAwCdASoYAA8APu1iqU2ppaOiMAgBMB2JQBOgBDrTIvP/2lyzAAD+J5/RpvoZg0PXsmjcUPh/Lz4iX5rxFdEikEy2hAAqMRGqY8yRpK18ehTMK4GMJlMdl8AWQhIZ0OZVdhX/fXgL0Dgx7IR56GxVwZOS+csNfYrhMK+D7x77lmPnFh4WsPRzhHm4Ei431kddMuStV1cPUefTTHB1AAAA"
+      }
+    },
+    {
+      "id": "gmi-fire-suppression",
+      "title": "Fire Suppression System",
+      "url": "https://garudamart.com/fire-suppresion-system/",
+      "company": "gmi",
+      "category": "produk",
+      "type": "halaman",
+      "description": "Pemasangan sistem pemadam kebakaran otomatis pada unit.",
+      "tags": [
+        "fire suppression",
+        "pemadam",
+        "kebakaran",
+        "fss"
+      ],
+      "departments": [
+        "sales",
+        "engineering",
+        "hse"
+      ],
+      "thumbnail": {
+        "file": "gmi-fire-suppression-761ccdfc",
+        "blur": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAADwAwCdASoYAA8APu1iqU2ppaOiMAgBMB2JYgCdH8ADArb7j9+X0tEAAP4nn9Gm+hmDQ9eyaNxQ90yglnoNh5FuxZu6trwTSwt6y6inNbEcNDI7yw7P9C+ENtAS/54WIN80Ae1MZRcpZ+kGEw2IxaOSHs/90Ee0o+9bReis+AiZkA+ma95wzEdZC2oFJ/elcXI4GAajZS61jHcfXoAAAA=="
+      }
+    },
+    {
+      "id": "gmi-auto-lubrication",
+      "title": "Auto Lubrication System",
+      "url": "https://garudamart.com/auto-lubrication-system/",
+      "company": "gmi",
+      "category": "produk",
+      "type": "halaman",
+      "description": "Pemasangan sistem pelumasan otomatis pada alat berat.",
+      "tags": [
+        "auto lube",
+        "pelumasan",
+        "lubrication",
+        "grease"
+      ],
+      "departments": [
+        "sales",
+        "engineering"
+      ],
+      "thumbnail": {
+        "file": "gmi-auto-lubrication-fc54a00a",
+        "blur": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAAAQBACdASoYAA8APu1iqU2ppaOiMAgBMB2JYgCdACHiEF3UVS9i3EYtAAD+J5/RpvoZg0PXsmmW4wehRD88Fn3L59FbD/5QaoxCdrCkpAH6WKqZgBkksINWhph+lK4GMJlMdl8AWQhIZ0OZVdhX/fXgL0Dgx7MQrnLBHUj6H+Vu1yROC4eiMqtcFOLyumW6dgXOEJ8YtieJgAAA"
+      }
+    },
+    {
+      "id": "gmi-led-lighting",
+      "title": "Instalasi LED Lighting Kit",
+      "url": "https://garudamart.com/led-lighting-kit-installation/",
+      "company": "gmi",
+      "category": "produk",
+      "type": "halaman",
+      "description": "Pemasangan lampu LED dan lighting kit pada unit.",
+      "tags": [
+        "led",
+        "lampu",
+        "lighting",
+        "instalasi"
+      ],
+      "departments": [
+        "sales",
+        "engineering"
+      ],
+      "thumbnail": {
+        "file": "gmi-led-lighting-6360b1af",
+        "blur": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAADQAwCdASoYAA8APu1iqU2ppaOiMAgBMB2JYgCdACHYSHKXujJf+gAA/ief0ab6GYND17JpTNz0Mp2DHarfAdn1guza+IKNVKpLR2wLWdRnnm233fq7CRlGzGRlcDGEymOy+ALIQkM6HMquwr/vrwF6BwY9nsSioguEw2zJE4qFHVB+e3mwXuD53k/Sa/+2LHSLAmyYrL7tc4YvAAA="
+      }
+    },
+    {
+      "id": "gmi-safety-device",
+      "title": "Instalasi Safety Device",
+      "url": "https://garudamart.com/safety-device-installation/",
+      "company": "gmi",
+      "category": "produk",
+      "type": "halaman",
+      "description": "Pemasangan perangkat keselamatan seperti alarm, kamera mundur, dan lotobox.",
+      "tags": [
+        "safety device",
+        "alarm",
+        "kamera",
+        "lotobox",
+        "instalasi"
+      ],
+      "departments": [
+        "sales",
+        "engineering",
+        "hse"
+      ],
+      "thumbnail": {
+        "file": "gmi-safety-device-a22e58ae",
+        "blur": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAABQBACdASoYAA8APu1mqk2ppaQiMAgBMB2JbACdH8ADA4wOVI9Xd4omF/GwAP4nn9Gm+nv/qcweiLrQQat48D5MGv+/S0SKQgkP97TqggVA9oJBFvgTU8mbXjymPWJCMjZnUDjDbrW0HfW8DiMWjkh2Lju7PIwrU7wofBGYIK4OVQKqi+i0u8pw6/L/dD0U9QjsZ9Wl7NEh3y/+RaryndyXWAA="
+      }
+    },
+    {
+      "id": "gmi-career",
+      "title": "Karier di GMI",
+      "url": "https://garudamart.com/career/",
+      "company": "gmi",
+      "category": "karier",
+      "type": "halaman",
+      "description": "Informasi lowongan kerja PT Garuda Mart Indonesia.",
+      "tags": [
+        "lowongan",
+        "loker",
+        "rekrutmen",
+        "kerja",
+        "job"
+      ],
+      "departments": [
+        "hrga"
+      ],
+      "thumbnail": {
+        "file": "gmi-career-012ef1e8",
+        "blur": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAAAQBACdASoYAA8APu1kqU2ppaOiMAgBMB2JQBWCP/wHklouzArB6Xa1AAD+J5/RpvpMqglIc8Q/BpWX0nnLx5jUZ+vIHu0YnVKaev0jH9WMEQ6slQ6ZkU9Yi/YS8PNyYADNmXgg0isCoR6gkfS1TKKWYpocQzsFgyJ3bCQTEKWuekq26mAa3/PTkcFPjQwM7JaAAA=="
+      }
+    },
+    {
+      "id": "gmi-blog",
+      "title": "Blog & Berita GMI",
+      "url": "https://garudamart.com/blog/",
+      "company": "gmi",
+      "category": "artikel",
+      "type": "halaman",
+      "description": "Berita perusahaan, penghargaan, dan kegiatan GMI.",
+      "tags": [
+        "blog",
+        "berita",
+        "news",
+        "kegiatan",
+        "event"
+      ],
+      "departments": [
+        "manajemen",
+        "hrga"
+      ],
+      "thumbnail": {
+        "file": "gmi-blog-45abb527",
+        "blur": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAACQAwCdASoYAA8APu1kqU2ppaQiMAgBMB2JQAALc441qDoUbu1AAP4nn9Gm+ADqe4djyCQejzZ9HvTxc2oZDN/Lgx+5FE3xRsW4WwnqPLMbLw3QJraAuGK0TWzEUkBbxMZQBbU1fUJSy3j+LIcvSuKjfDIkXFAA"
+      }
+    },
+    {
+      "id": "gmi-faq",
+      "title": "FAQ GMI",
+      "url": "https://garudamart.com/faq/",
+      "company": "gmi",
+      "category": "bantuan",
+      "type": "halaman",
+      "description": "Pertanyaan yang sering diajukan seputar produk dan layanan GMI.",
+      "tags": [
+        "faq",
+        "tanya jawab",
+        "pertanyaan"
+      ],
+      "departments": [
+        "sales"
+      ],
+      "thumbnail": {
+        "file": "gmi-faq-10ec2943",
+        "blur": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAADQAwCdASoYAA8APu1kq04ppaQiMAgBMB2JZACw7CHez+/AnyzGX5AA/ief0ab37KGgf+X50iN2zmX1R2wQmZeEi5Z7qpiEgCFar9sDdtDlf7bftxlzmI1lXOHjc8TwdBdTUn24oNHFXaiDe/YWHs4BjIAAAA=="
+      }
+    },
+    {
+      "id": "gmi-office-location",
+      "title": "Lokasi Kantor GMI",
+      "url": "https://garudamart.com/office-location/",
+      "company": "gmi",
+      "category": "bantuan",
+      "type": "halaman",
+      "description": "Alamat head office Bekasi dan kantor cabang (Balikpapan, Muara Enim, MIP).",
+      "tags": [
+        "kantor",
+        "cabang",
+        "alamat",
+        "lokasi",
+        "branch"
+      ],
+      "departments": [
+        "sales",
+        "purchasing",
+        "hrga"
+      ],
+      "thumbnail": {
+        "file": "gmi-office-location-29bc99db",
+        "blur": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4IKAAAAAwBACdASoYAA8APu1iqU2ppaOiMAgBMB2JYgCdIExDA4vXtMC7C8RD/7gA/ief0ab6GYND17JpluMH3St2UPfDn0VsRMsSgkvXcq0dT09EX8/XbINb2I3+HXDe2gJjNOIOeQKurhU+HjRKwzTF5KXhb0dFzaVyhM41sxpwv4sn4a5N3pq+673uVV5Ekmwg8rplumwydd71rd0P4ZhFcAAA"
+      }
+    },
+    {
+      "id": "gmi-contact",
+      "title": "Kontak GMI",
+      "url": "https://garudamart.com/contact/",
+      "company": "gmi",
+      "category": "bantuan",
+      "type": "halaman",
+      "description": "Telepon, email, dan form kontak PT Garuda Mart Indonesia.",
+      "tags": [
+        "kontak",
+        "hubungi",
+        "telepon",
+        "email"
+      ],
+      "departments": [
+        "sales",
+        "purchasing"
+      ],
+      "thumbnail": {
+        "file": "gmi-contact-aa6a74fd",
+        "blur": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAACwAwCdASoYAA8APu1kqU2ppaQiMAgBMB2JZABUfoegBnTEY1nIAADdo9v/ZfEGVge9lTvHpr7yDcRfacxE6JFz9yKJjNOILBNyL98OHiv2a/txzjNzbBSNITRpiVPR2oOiUFCFCvlCfTm15x6dHsLoD8rphG45EXXrYyFpHhM1/yo8wAA="
+      }
     },
     {
       "id": "gis-home",

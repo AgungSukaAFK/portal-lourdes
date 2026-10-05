@@ -10,9 +10,9 @@
   {
     "company": "gmi",
     "name": "PT Garuda Mart Indonesia",
-    "api": null,
-    "category": null,
-    "archiveUrl": null,
+    "api": "https://garudamart.com/wp-json/wp/v2/posts",
+    "category": 26,
+    "archiveUrl": "https://garudamart.com/safety-topic/",
     "absensiUrl": null
   }
 ]

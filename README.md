@@ -15,7 +15,7 @@ npm start          # pratinjau folder out/
 
 - `npm run validate` memeriksa `src/data/content.json` (ID unik, kategori/departemen valid, file thumbnail ada).
 - `npm run images` mengoptimasi gambar di `assets/source/` ke `public/img/` (AVIF/WebP berbagai ukuran + logo versi tema gelap).
-- `npm run snapshot` menyimpan 30 Safety Topic terbaru dari globalinti.com sebagai cadangan. Di browser, data tetap diambil live.
+- `npm run snapshot` menyimpan 30 Safety Topic terbaru dari globalinti.com (GIS) dan garudamart.com (GMI) sebagai cadangan. Di browser, data tetap diambil live.
 
 ## Admin konten (hanya localhost)
 
