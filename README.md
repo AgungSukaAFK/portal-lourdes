@@ -39,3 +39,12 @@ Screenshot otomatis memakai Google Chrome yang terpasang di komputer (lewat `pla
 Upload isi folder `out/` ke hosting statis apa pun (Vercel, Netlify, Cloudflare Pages, cPanel). Set `NEXT_PUBLIC_SITE_URL` ke domain portal agar pratinjau link (Open Graph) benar.
 
 Build ulang secara berkala (misalnya harian lewat CI) supaya snapshot Safety Topic tetap segar. Ini opsional, karena data live tetap diambil di browser.
+
+### Favorit karyawan
+
+Favorit & riwayat disimpan di browser (localStorage) per **alamat portal** (domain + port) dan per ID tautan. Agar tidak hilang:
+
+- Deploy selalu ke domain yang sama (jangan bagikan URL preview yang berubah tiap deploy).
+- Jangan hapus/ganti ID tautan. Admin sudah mengunci ID, dan `npm run validate` memperingatkan bila ada tautan yang terhapus sejak commit terakhir.
+- `npm start` dikunci di port 3000 (gagal alih-alih pindah port diam-diam).
+- Karyawan bisa menyalin **tautan cadangan favorit** di bagian *Akses cepat* dan membukanya di alamat/browser lain untuk memulihkan favorit.

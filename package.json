@@ -9,7 +9,7 @@
     "snapshot": "node scripts/fetch-safety-snapshot.mjs",
     "prebuild": "npm run validate && npm run images && npm run snapshot",
     "build": "next build",
-    "start": "npx serve out",
+    "start": "npx serve out -l 3000 --no-port-switching",
     "lint": "tsc --noEmit",
     "admin:password": "node scripts/set-admin-password.mjs",
     "validate": "tsx scripts/validate-content.ts"

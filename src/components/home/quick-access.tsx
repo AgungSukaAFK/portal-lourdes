@@ -1,12 +1,13 @@
 "use client";
 
-import { Clock, Sparkles, Star } from "lucide-react";
-import { useState } from "react";
+import { Clock, Link2, Sparkles, Star } from "lucide-react";
+import { useEffect, useState } from "react";
 import { links } from "@/data/links";
-import { clearRecent, useFavorites, useRecent } from "@/lib/storage";
+import { clearRecent, favoritesBackupUrl, restoreFavoritesFromHash, useFavorites, useRecent } from "@/lib/storage";
 import { useMounted } from "@/lib/use-mounted";
 import { cn } from "@/lib/utils";
 import { LinkCard } from "../link-card";
+import { notify } from "../toast";
 
 const byId = Object.fromEntries(links.map((l) => [l.id, l]));
 const featured = links.filter((l) => l.featured);
@@ -18,6 +19,29 @@ export function QuickAccess() {
   const { favorites } = useFavorites();
   const recent = useRecent();
   const [chosen, setChosen] = useState<Tab | null>(null);
+
+  // Buka dari tautan cadangan (#favorit=…) → gabungkan ke favorit di perangkat ini.
+  useEffect(() => {
+    const added = restoreFavoritesFromHash();
+    if (added) {
+      setChosen("favorit");
+      // Ditunda agar Toaster sudah memasang listener-nya.
+      setTimeout(() => notify(`${added} favorit dipulihkan`, { tone: "ok", body: "Favorit dari tautan cadangan sudah ditambahkan." }));
+    }
+  }, []);
+
+  async function copyBackup() {
+    const url = favoritesBackupUrl();
+    try {
+      await navigator.clipboard.writeText(url);
+      notify("Tautan cadangan favorit disalin", {
+        tone: "ok",
+        body: "Simpan tautan ini. Buka kembali bila favorit hilang (mis. alamat portal berubah atau ganti browser).",
+      });
+    } catch {
+      window.prompt("Salin tautan cadangan favorit ini:", url);
+    }
+  }
 
   const favLinks = favorites.map((id) => byId[id]).filter(Boolean);
   const recentLinks = recent.map((id) => byId[id]).filter(Boolean);
@@ -94,6 +118,16 @@ export function QuickAccess() {
               "Tautan yang Anda buka dari portal akan muncul di sini."
             )}
           </div>
+        )}
+        {mounted && tab === "favorit" && favorites.length > 0 && (
+          <button
+            type="button"
+            onClick={copyBackup}
+            className="mt-2 inline-flex items-center gap-1 text-xs text-faint hover:text-muted"
+          >
+            <Link2 className="size-3.5" />
+            Salin tautan cadangan favorit
+          </button>
         )}
         {mounted && tab === "terakhir" && recentLinks.length > 0 && (
           <button type="button" onClick={clearRecent} className="mt-2 text-xs text-faint hover:text-muted">

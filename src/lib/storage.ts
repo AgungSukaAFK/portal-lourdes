@@ -63,6 +63,32 @@ export function useFavorites() {
   return { favorites, toggle, isFavorite: (id: string) => favorites.includes(id) };
 }
 
+// ——— Cadangan favorit lewat tautan ———
+// localStorage terikat ke alamat portal (domain + port). Bila alamatnya berubah (pindah hosting,
+// port lain, URL preview), favorit di alamat lama tidak terbaca. Tautan cadangan membawa ID favorit
+// di hash URL sehingga bisa dipulihkan di alamat mana pun.
+
+const FAV_HASH = "favorit";
+
+export function favoritesBackupUrl() {
+  const url = new URL(window.location.href);
+  url.search = "";
+  url.hash = `${FAV_HASH}=${read(FAV_KEY).map(encodeURIComponent).join(",")}`;
+  return url.toString();
+}
+
+/** Gabungkan favorit dari hash `#favorit=a,b` (tanpa menghapus yang sudah ada). Mengembalikan jumlah yang ditambahkan. */
+export function restoreFavoritesFromHash(): number {
+  const m = window.location.hash.match(new RegExp(`^#${FAV_HASH}=(.*)$`));
+  if (!m) return 0;
+  const ids = m[1].split(",").map((x) => decodeURIComponent(x).trim()).filter((x) => /^[a-z0-9-]{1,80}$/.test(x));
+  const cur = read(FAV_KEY);
+  const added = ids.filter((id) => !cur.includes(id));
+  if (added.length) write(FAV_KEY, [...cur, ...added]);
+  history.replaceState(null, "", window.location.pathname + window.location.search);
+  return added.length;
+}
+
 export function useRecent() {
   return useStoredList(RECENT_KEY);
 }
